@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra( CURRENT_TOTAL_QUESTIONS, 20 );
         intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
-        intent.putExtra( CURRENT_LANGUAGE, 1 );
+        intent.putExtra( CURRENT_LANGUAGE, 0 );
         startActivity(intent);
     }
 
