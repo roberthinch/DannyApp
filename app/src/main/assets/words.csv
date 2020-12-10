@@ -1,0 +1,146 @@
+der Hund,the dog,Animals,noun
+die Katze,the cat,Animals,noun
+die Maus,the mouse,Animals,noun
+der Fisch,the fish,Animals,noun
+die Schlange,the snake,Animals,noun
+das Kaninchen,the rabbit,Animals,noun
+das Schwein,the pig,Animals,noun
+die Kuh,the cow,Animals,noun
+das Pferd,the horse,Animals,noun
+der Esel,the donkey,Animals,noun
+der Vogel,the bird,Animals,noun
+die Giraffe,the giraffe,Animals,noun
+der Schmetterling,the butterfly,Animals,noun
+der Käfer,the beetle,Animals,noun
+der Löwe,the lion,Animals,noun
+der Gepard,the cheetah,Animals,noun
+das Nilpferd,the hippo,Animals,noun
+das Huhn,the chicken,Animals,noun
+das Schaf,the sheep,Animals,noun
+das Zebra,the zebra,Animals,noun
+der Adler,the eagle,Animals,noun
+das Reh,the deer,Animals,noun
+das Tier,the animal,Animals,noun
+die Tiere,the animals,Animals,noun
+der Rücken,the back,Body,noun
+der Fontäne,the fontaine,Object,noun
+die Blase,the bubble,Object,noun
+die Kette,the chain,Object,noun
+der Teppich,the carpet,House,noun
+der Flügel,the wing,Animals,noun
+der Fuchs,the fox,Animals,noun
+der Verein,the club,Organisation,noun
+der Stoßzahn,the tusk,Animals,noun
+der Rüssel,the trunk,Animals,noun
+das Ferkel,the piglet,Animals,noun
+das Stück,the piece,Object,noun
+der Mannschaft,the team,Organisation,noun
+der Kegel,the skittle,Object,noun
+die Stimme,the voice,Body,noun
+das Gift,the poison,Object,noun
+das Seil,the rope,Object,noun
+die Schaufel,the shovel,Object,noun
+die Klinge,the blade,Object,noun
+der Spitzer,the peak,Outdoors,noun
+die Trommel,the drum,Music,noun
+die Geige,the violin,Music,noun	
+das Klavier,the piano,Music,noun
+die Saite,the string,Object,noun
+die Baustelle,the building site,Outdoors,noun
+der Teig,the dough,Food,noun
+das Blech,the baking sheet,Food,noun
+der Senf,the mustard,Food,noun
+der Herd,the stove,Food,noun
+der Topf,the pot,Food,noun
+die Grube,the pit/hole,Outdoors,noun
+das Fischstäbchen,the fish finger,Food,noun
+das Gewitter,the storm,Outdoors,noun
+die Pflaume,the plum,Food,noun
+die Pappe,the cardboard,Object,noun
+das Hemd,the shirt,Clothes,noun
+die Wunde,the wound,Body,noun
+der Tannenbaum,the fir tree,Outdoors,noun
+der Ranzen,the school bag,Object,noun
+der Anzug,the suit (clothes),Clothes,noun
+der Edelstein,the gem,Object,noun
+der Taucher,the diver,Person,noun
+die Gestalt,the shape,Object,noun
+der Käfig,the cage,Animals,noun
+der Gegenstand,the object,Object,noun
+der Staubsauger,the vacuum cleaner,House,noun
+der Verkehr,the traffic,Outdoors,noun
+die Szene,the scene,Outdoors,noun
+der Müll,the rubbish,House,noun
+die Zange,the pliers,House,noun
+das Werkzeug,the tool,House,noun
+der Schuppen,the shed,House,noun
+der Umhang,the cape,Clothes,noun
+die Fabrik,the factory,Outdoors,noun
+die Säge,the saw,House,noun
+der Hammer,the hammer,House,noun
+ich bin,I am,,verb_fps
+ich war,I was,,verb_fps
+ich habe,I have,,verb_fps
+ich hatte,I had,,verb_fps
+ich gehe,I go,,verb_fps
+ich ging,I went,,verb_fps
+ich will,I want,,verb_fps
+ich weiß,I know,,verb_fps
+ich spreche,I speak,,verb_fps
+ich sage,I say,,verb_fps
+ich sagte,I said,,verb_fps
+ich lese,I read,,verb_fps
+ich sehe,I see,,verb_fps
+ich sah,I saw,,verb_fps
+ich denke,I think,,verb_fps
+denken,to think,,verb
+nachdenken,to think about,,verb
+ankommen,to arrive,,verb
+aufsehen,to look up,,verb
+ansehen,to look at,,verb
+bestätigen,to confirm,,verb
+aufspringien,to jump up,,verb
+aussehen,to look,,verb
+pusten,to blow/puff,,verb
+rechnen,to calculate,,verb
+folgen,to follow,,verb
+zeigen,to show,,verb
+graben,to dig,,verb
+strecken,to stretch,,verb
+knurren,to growl,,verb
+werfen,to throw,,verb
+bewegen,to move,,verb
+herstellen,to make/produce,,verb
+bekommen,to get,,verb
+kämpfen,to fight,,verb
+schlucken,to swallow,,verb
+entkommen,to escape,,verb
+bestellen,to order,,verb
+ziehen,to pull,,verb
+drücken,to push,,verb
+sollen,to be supposed to (should),,verb
+beobachten,to watch,,verb
+kümmern,to concern,,verb
+vorschlagen,to suggest,,verb
+verschwinden,to disappear,,verb
+meinen,to mean/say,,verb
+gehören,to belong,,verb
+kehren,to sweep,,verb
+treffen,to meet,,verb
+segeln,to sail,,verb
+blicken,to look,,verb
+sich erinnern,to remember,,verb
+reisen,to travel,,verb
+gefallen,to please,,verb
+reichen,to reach,,verb
+benutzen,to use,,verb
+stolpern,to stumble,,verb
+ich nehme,I take,,verb_fps
+heben,to lift,,verb
+sammeln,to collect,,verb
+beißen,to bite,,verb
+suchen,to search,,verb
+finden,to find,,verb
+träumen,to dream,,verb
+halten,to hold/keep,,verb
+seufzen,to sigh,,verb
