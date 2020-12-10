@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // load up session singleton noun store
-        NOUN_STORE= new WordStore( this.getAssets(), "nouns.csv");
+        NOUN_STORE= new WordStore( this.getAssets(), "words.csv");
     }
 
     /** Called when the user taps the Send button */
