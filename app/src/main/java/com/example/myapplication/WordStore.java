@@ -94,24 +94,43 @@ public class WordStore {
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public WordRecord[] sampleRecords(int n ) {
+        return sampleRecords( n, null );
+    };
+
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+    public WordRecord[] sampleRecords(int n, String filterCategory ) {
 
         // deal with trivial bad data cases
         WordRecord[] records = new WordRecord[n];
         if( n < 1 || nRecords < 1 )
             return records;
 
-        // pick a record at random, this decides the category
+        // pick a record at random
         Random rnd = ThreadLocalRandom.current();
         int idx;
+        int nRec;
+        List<Integer> categoryIndicies;
         int indices[] = new int[n];
-        idx = rnd.nextInt( nRecords -1 );
-        List<Integer> categoryIndicies = categoryMap.get(category[idx]);
-        int nRec = categoryIndicies.size();
+        if( filterCategory == null ) {
+            // if no categroy given then pick from the whole store
+            idx = rnd.nextInt(nRecords - 1);
+            categoryIndicies = categoryMap.get(category[idx]);
+            nRec = categoryIndicies.size();
 
-        // now we need to select the index of the first chosen record from the category list
-        for( int i = 0; i < nRec; i++ ) {
-            if (categoryIndicies.get(i) == idx)
-                indices[0] = i;
+            // now we need to select the index of the first chosen record from the category list
+            for (int i = 0; i < nRec; i++) {
+                if (categoryIndicies.get(i) == idx)
+                    indices[0] = i;
+            }
+        } else {
+            // pick out the category of interest
+            categoryIndicies = categoryMap.get(filterCategory);
+            nRec = categoryIndicies.size();
+
+            if( nRec == 0 )
+                return records;
+
+            indices[0] = rnd.nextInt(nRec- 1);;
         }
 
         // pick the other n-1 elements from the category list
