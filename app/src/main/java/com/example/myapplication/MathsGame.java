@@ -138,8 +138,11 @@ public class MathsGame extends AppCompatActivity {
 
         // deal with case of entering a 0 for a 1 digit answer
         if(  firstDigit == 0 && selectedDigit == 0  && digitEntered == false ) {
-            digitEntered = true;
-            return;
+            if( secondDigit > 0 ) {
+                digitEntered = true;
+                return;
+            } else
+                set_correct_answer();
         }
 
         // next deal with single digit answers
