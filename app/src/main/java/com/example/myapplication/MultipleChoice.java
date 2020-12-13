@@ -43,7 +43,7 @@ public class MultipleChoice extends AppCompatActivity {
         totalCorrect   = intent.getIntExtra(MainActivity.CURRENT_TOTAL_CORRECT, -1 );
         language       = intent.getIntExtra(MainActivity.CURRENT_LANGUAGE, -1 );
 
-        WordRecord[] records = MainActivity.NOUN_STORE.sampleRecords( nAnswers );
+        WordRecord[] records = MainActivity.WORD_STORE.sampleRecords( nAnswers );
 
         WordRecord record = records[0];
         if( language == 0 ) {

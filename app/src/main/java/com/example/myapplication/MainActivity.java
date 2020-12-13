@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String CURRENT_TOTAL_CORRECT   = "com.example.myfirstapp.CURRENT_TOTAL_CORRECT";
     public static final String CURRENT_QUESTION_NUMBER = "com.example.myfirstapp.CURRENT_QUESTION_NUMBER";
     public static final String CURRENT_LANGUAGE = "com.example.myfirstapp.CURRENT_LANGUAGE";
-    public static WordStore NOUN_STORE;
+    public static WordStore WORD_STORE;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // load up session singleton noun store
-        NOUN_STORE= new WordStore( this.getAssets(), "words.csv");
+        WORD_STORE = new WordStore( this.getAssets(), "words.csv");
     }
 
     /** Called when the user taps the Send button */

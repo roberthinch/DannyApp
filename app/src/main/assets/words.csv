@@ -43,7 +43,7 @@ die Schaufel,the shovel,Object,noun
 die Klinge,the blade,Object,noun
 der Spitzer,the peak,Outdoors,noun
 die Trommel,the drum,Music,noun
-die Geige,the violin,Music,noun	
+die Geige,the violin,Music,noun
 das Klavier,the piano,Music,noun
 die Saite,the string,Object,noun
 die Baustelle,the building site,Outdoors,noun
@@ -144,3 +144,36 @@ finden,to find,,verb
 träumen,to dream,,verb
 halten,to hold/keep,,verb
 seufzen,to sigh,,verb
+raten,to guess,,verb
+toll,great,,adjv
+abwesend,absent,,adjv
+tatsächlich,indeed,,adjv
+jetzt,now,,adjv
+nur,only,,adjv
+häufig,frequently,,adjv
+gesund,healthy,,adjv
+giftig,poisonous,,adjv
+immer,always,,adjv
+bequem,comfortably,,adjv
+leer,empty,,adjv
+voll,full,,adjv
+schlimm,bad,,adjv
+schlecht,bad,,adjv
+schrecklich,terrible,,adjv
+gesamt,total,,adjv
+ingesamt,altogether,,adjv
+schief,crooked,,adjv
+verschieden,different,,adjv
+unsichtbar,invisible,,adjv
+sichtbar,visible,,adjv
+ähnlich,similar,,adjv
+gleich,identical,,adjv
+bald,soon,,adjv
+verrückt,crazy,,adjv
+leise,quitely,,adjv
+genug,enough,,adjv
+laut,loud,,adjv
+groß,large,,adjv
+klein,amall,,adjv
+schnell,fast,,adjvx
+langsam,slow,,adjv
