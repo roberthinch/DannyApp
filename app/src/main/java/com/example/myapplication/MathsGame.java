@@ -23,10 +23,11 @@ public class MathsGame extends AppCompatActivity {
 
     private String question;
     private int correctAnswer;
-    private int nAnswers = 6;
     private int[] buttonIds;
     private boolean correct;
     private boolean digitEntered;
+    private int maxNumber;
+    private int operatorType; // 0=add; 1=subtract; 2=multiply
     public int totalQuestions;
     public int questionNumber;
     public int totalCorrect;
@@ -42,15 +43,33 @@ public class MathsGame extends AppCompatActivity {
         totalQuestions = intent.getIntExtra(MainActivity.CURRENT_TOTAL_QUESTIONS, -1);
         questionNumber = intent.getIntExtra(MainActivity.CURRENT_QUESTION_NUMBER, -1 )+1;
         totalCorrect   = intent.getIntExtra(MainActivity.CURRENT_TOTAL_CORRECT, -1 );
-
-        int maxNumber = 20;
+        operatorType   = intent.getIntExtra(MainActivity.CURRENT_OPERATOR_TYPE, -1 );
+        maxNumber      = intent.getIntExtra(MainActivity.CURRENT_MAX_NUMBER, -1 );
 
         Random rnd = ThreadLocalRandom.current();
-        int number1 = rnd.nextInt(maxNumber-1)+1;
-        int number2 = rnd.nextInt(maxNumber-1)+1;
+        int number1, number2;
 
-        question = String.valueOf(number1) + " + " + String.valueOf(number2) + " = ";
-        correctAnswer = number1 + number2;
+        if( operatorType == 0 ) {
+            number1 = rnd.nextInt(maxNumber)+1;
+            number2 = rnd.nextInt(maxNumber)+1;
+            question = String.valueOf(number1) + " + " + String.valueOf(number2) + " = ";
+            correctAnswer = number1 + number2;
+        } else if( operatorType == 1  ) {
+            number1 = rnd.nextInt(maxNumber)+1;
+            number2 = rnd.nextInt(maxNumber)+1;
+            if( number2 > number1 ) {
+                int temp = number2;
+                number2 = number1;
+                number1 = temp;
+            }
+            question = String.valueOf(number1) + " - " + String.valueOf(number2) + " = ";
+            correctAnswer = number1 - number2;
+        } else if( operatorType == 2) {
+            number1 = rnd.nextInt(maxNumber-1)+2;
+            number2 = rnd.nextInt(maxNumber-1)+2;
+            question = String.valueOf(number1) + " x " + String.valueOf(number2) + " = ";
+            correctAnswer = number1 * number2;
+        }
 
         setup_screen();
     }
@@ -171,6 +190,8 @@ public class MathsGame extends AppCompatActivity {
            intent.putExtra(MainActivity.CURRENT_TOTAL_QUESTIONS, totalQuestions ) ;
            intent.putExtra(MainActivity.CURRENT_TOTAL_CORRECT, totalCorrect ) ;
            intent.putExtra(MainActivity.CURRENT_QUESTION_NUMBER, questionNumber );
+           intent.putExtra(MainActivity.CURRENT_OPERATOR_TYPE, operatorType );
+           intent.putExtra(MainActivity.CURRENT_MAX_NUMBER, maxNumber );
            startActivity(intent);
        }
        else
@@ -178,6 +199,8 @@ public class MathsGame extends AppCompatActivity {
            Intent intent = new Intent(this, Results.class);
            intent.putExtra(MainActivity.CURRENT_TOTAL_QUESTIONS, totalQuestions ) ;
            intent.putExtra(MainActivity.CURRENT_TOTAL_CORRECT, totalCorrect ) ;
+           intent.putExtra(MainActivity.CURRENT_OPERATOR_TYPE, operatorType );
+           intent.putExtra(MainActivity.CURRENT_MAX_NUMBER, maxNumber );
            startActivity(intent);
        }
     }

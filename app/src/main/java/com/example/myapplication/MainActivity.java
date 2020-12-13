@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity {
     public static final String CURRENT_TOTAL_CORRECT   = "com.example.myfirstapp.CURRENT_TOTAL_CORRECT";
     public static final String CURRENT_QUESTION_NUMBER = "com.example.myfirstapp.CURRENT_QUESTION_NUMBER";
     public static final String CURRENT_LANGUAGE = "com.example.myfirstapp.CURRENT_LANGUAGE";
+    public static final String CURRENT_OPERATOR_TYPE = "com.example.myfirstapp.CURRENT_OPERATOR_TYPE";
+    public static final String CURRENT_MAX_NUMBER = "com.example.myfirstapp.CURRENT_MAX_NUMBER";
     public static WordStore WORD_STORE;
 
     @Override
@@ -41,11 +43,33 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void launchMathsGameView( View view) {
+    public void launchAddGameView( View view) {
         Intent intent = new Intent(this, MathsGame.class);
         intent.putExtra( CURRENT_TOTAL_QUESTIONS, 20 );
         intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
+        intent.putExtra( CURRENT_OPERATOR_TYPE, 0 );
+        intent.putExtra( CURRENT_MAX_NUMBER, 20 );
+        startActivity(intent);
+    }
+
+    public void launchSubtractGameView( View view) {
+        Intent intent = new Intent(this, MathsGame.class);
+        intent.putExtra( CURRENT_TOTAL_QUESTIONS, 20 );
+        intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
+        intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
+        intent.putExtra( CURRENT_OPERATOR_TYPE, 1 );
+        intent.putExtra( CURRENT_MAX_NUMBER, 20 );
+        startActivity(intent);
+    }
+
+    public void launchMultiplyGameView( View view) {
+        Intent intent = new Intent(this, MathsGame.class);
+        intent.putExtra( CURRENT_TOTAL_QUESTIONS, 20 );
+        intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
+        intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
+        intent.putExtra( CURRENT_OPERATOR_TYPE, 2 );
+        intent.putExtra( CURRENT_MAX_NUMBER, 7 );
         startActivity(intent);
     }
 
