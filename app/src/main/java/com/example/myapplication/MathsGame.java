@@ -139,13 +139,17 @@ public class MathsGame extends AppCompatActivity {
                     digitEntered = true;
                     return;
                 } else {
+                    digitEntered = true;
                     correct = false;
                     return;
                 }
             } else {
                 if (selectedDigit == secondDigit) {
-                    if( correct == true )
+                    if( correct == true ) {
                         set_correct_answer();
+                    } else
+                        set_wrong_answer();
+
                 } else {
                     correct = false;
                     set_wrong_answer();
