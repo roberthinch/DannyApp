@@ -41,6 +41,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void launchMathsGameView( View view) {
+        Intent intent = new Intent(this, MathsGame.class);
+        intent.putExtra( CURRENT_TOTAL_QUESTIONS, 20 );
+        intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
+        intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
+        startActivity(intent);
+    }
+
     /** Called when the user taps the Send button */
     public void launchAddWords( View view) {
         Intent intent = new Intent(this, addWords.class);
