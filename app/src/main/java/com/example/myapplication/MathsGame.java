@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -114,6 +115,9 @@ public class MathsGame extends AppCompatActivity {
         TextView textView = findViewById(R.id.question_text);
         textView.setBackgroundColor(Color.GREEN );
         totalCorrect += 1;
+
+        MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.cheers);
+        mp.start();
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -122,6 +126,9 @@ public class MathsGame extends AppCompatActivity {
         TextView textView = findViewById(R.id.question_text);
         textView.setText( question + String.valueOf(correctAnswer));
         textView.setBackgroundColor(Color.RED );
+
+        MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.wrong);
+        mp.start();
     }
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public void on_select_answer(View view)

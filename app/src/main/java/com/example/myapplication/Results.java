@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -26,6 +27,11 @@ public class Results extends AppCompatActivity {
         String text = "You scored " + String.valueOf(totalCorrect) + "/" + String.valueOf(totalQuestions);
         TextView textView = findViewById(R.id.resultText);
         textView.setText(text);
+
+        if( 1.0 * totalCorrect / totalQuestions > 0.849 ){
+            MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.cheers);
+            mp.start();
+        }
     }
 
     public void on_next(View view)
