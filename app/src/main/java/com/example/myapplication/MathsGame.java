@@ -29,9 +29,13 @@ public class MathsGame extends AppCompatActivity {
     private boolean digitEntered;
     private int maxNumber;
     private int operatorType; // 0=add; 1=subtract; 2=multiply
+    private boolean autoQuestion = true;
+    private int score;
+    private long startTime;
     public int totalQuestions;
     public int questionNumber;
     public int totalCorrect;
+
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -46,6 +50,11 @@ public class MathsGame extends AppCompatActivity {
         totalCorrect   = intent.getIntExtra(MainActivity.CURRENT_TOTAL_CORRECT, -1 );
         operatorType   = intent.getIntExtra(MainActivity.CURRENT_OPERATOR_TYPE, -1 );
         maxNumber      = intent.getIntExtra(MainActivity.CURRENT_MAX_NUMBER, -1 );
+        score          = intent.getIntExtra(MainActivity.CURRENT_SCORE, -1 );
+
+        // if in game mode then score is non-negative
+        if( score < 0 )
+            autoQuestion = false;
 
         Random rnd = ThreadLocalRandom.current();
         int number1, number2;
@@ -73,6 +82,7 @@ public class MathsGame extends AppCompatActivity {
         }
 
         setup_screen();
+        startTime = System.currentTimeMillis();
     }
 
     private void setup_screen()
@@ -89,7 +99,12 @@ public class MathsGame extends AppCompatActivity {
         String text = String.valueOf(questionNumber) + "/" + String.valueOf(totalQuestions);
         textView = findViewById(R.id.question_number);
         textView.setText(text);
-        text = String.valueOf(totalCorrect) + "/" + String.valueOf(questionNumber-1);
+
+        if( score < 0 ) {
+            text = String.valueOf(totalCorrect) + "/" + String.valueOf(questionNumber - 1);
+        } else {
+            text = String.valueOf(score) + "pts";
+        };
         textView = findViewById(R.id.question_correct);
         textView.setText(text);
 
@@ -115,6 +130,14 @@ public class MathsGame extends AppCompatActivity {
         TextView textView = findViewById(R.id.question_text);
         textView.setBackgroundColor(Color.GREEN );
         totalCorrect += 1;
+
+        // score is 50 - answerTime / 100
+        if( score >= 0 ) {
+            int maxScore = 50;
+            int minScore = 10;
+            int answerTime = (int) ((System.currentTimeMillis() - startTime) / 100);
+            score += Math.max(minScore, (maxScore - answerTime));
+        }
 
         MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.cheers);
         mp.start();
@@ -187,12 +210,30 @@ public class MathsGame extends AppCompatActivity {
         }
 
         disable_key_pad();
-        button = findViewById( R.id.next );
-        button.setTextColor( Color.BLACK );
-        button.setEnabled( true );
+
+        if( autoQuestion == false ) {
+            button = findViewById(R.id.next);
+            button.setTextColor(Color.BLACK);
+            button.setEnabled(true);
+        } else {
+            Timer timer = new Timer();
+            TimerTask task = new TimerTask() {
+                @Override
+                public void run() {
+                    launch_next_question();
+                }
+            };
+            timer.schedule( task, 1000 );
+        }
+
     }
 
     public void on_next(View view)
+    {
+        launch_next_question();
+    }
+
+    public void launch_next_question()
     {
        if( questionNumber < totalQuestions )
        {
@@ -202,6 +243,7 @@ public class MathsGame extends AppCompatActivity {
            intent.putExtra(MainActivity.CURRENT_QUESTION_NUMBER, questionNumber );
            intent.putExtra(MainActivity.CURRENT_OPERATOR_TYPE, operatorType );
            intent.putExtra(MainActivity.CURRENT_MAX_NUMBER, maxNumber );
+           intent.putExtra(MainActivity.CURRENT_SCORE, score );
            startActivity(intent);
        }
        else
@@ -211,6 +253,7 @@ public class MathsGame extends AppCompatActivity {
            intent.putExtra(MainActivity.CURRENT_TOTAL_CORRECT, totalCorrect ) ;
            intent.putExtra(MainActivity.CURRENT_OPERATOR_TYPE, operatorType );
            intent.putExtra(MainActivity.CURRENT_MAX_NUMBER, maxNumber );
+           intent.putExtra(MainActivity.CURRENT_SCORE, score );
            startActivity(intent);
        }
     }

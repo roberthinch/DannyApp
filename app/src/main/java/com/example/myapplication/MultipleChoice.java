@@ -29,6 +29,7 @@ public class MultipleChoice extends AppCompatActivity {
     public int totalQuestions;
     public int questionNumber;
     public int totalCorrect;
+    private int score;
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -42,6 +43,7 @@ public class MultipleChoice extends AppCompatActivity {
         questionNumber = intent.getIntExtra(MainActivity.CURRENT_QUESTION_NUMBER, -1 )+1;
         totalCorrect   = intent.getIntExtra(MainActivity.CURRENT_TOTAL_CORRECT, -1 );
         language       = intent.getIntExtra(MainActivity.CURRENT_LANGUAGE, -1 );
+        score          = intent.getIntExtra(MainActivity.CURRENT_SCORE, -1 );
 
         WordRecord[] records = MainActivity.WORD_STORE.sampleRecords( nAnswers );
 
@@ -193,6 +195,7 @@ public class MultipleChoice extends AppCompatActivity {
            intent.putExtra(MainActivity.CURRENT_TOTAL_CORRECT, totalCorrect ) ;
            intent.putExtra(MainActivity.CURRENT_QUESTION_NUMBER, questionNumber );
            intent.putExtra(MainActivity.CURRENT_LANGUAGE, language );
+           intent.putExtra(MainActivity.CURRENT_SCORE, score );
            startActivity(intent);
        }
        else
@@ -200,6 +203,7 @@ public class MultipleChoice extends AppCompatActivity {
            Intent intent = new Intent(this, Results.class);
            intent.putExtra(MainActivity.CURRENT_TOTAL_QUESTIONS, totalQuestions ) ;
            intent.putExtra(MainActivity.CURRENT_TOTAL_CORRECT, totalCorrect ) ;
+           intent.putExtra(MainActivity.CURRENT_SCORE, score ) ;
            startActivity(intent);
        }
     }

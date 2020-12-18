@@ -23,8 +23,14 @@ public class Results extends AppCompatActivity {
         Intent intent = getIntent();
         int totalQuestions = intent.getIntExtra(MainActivity.CURRENT_TOTAL_QUESTIONS, -1);
         int totalCorrect   = intent.getIntExtra(MainActivity.CURRENT_TOTAL_CORRECT, -1);
+        int score          = intent.getIntExtra(MainActivity.CURRENT_SCORE, -1);
 
-        String text = "You scored " + String.valueOf(totalCorrect) + "/" + String.valueOf(totalQuestions);
+        String text;
+        if( score < 0 ) {
+            text = "You scored " + String.valueOf(totalCorrect) + "/" + String.valueOf(totalQuestions);
+        } else {
+            text = "You scored " + String.valueOf(score) + "pts"; }
+
         TextView textView = findViewById(R.id.resultText);
         textView.setText(text);
 

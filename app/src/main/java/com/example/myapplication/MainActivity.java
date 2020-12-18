@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String CURRENT_LANGUAGE = "com.example.myfirstapp.CURRENT_LANGUAGE";
     public static final String CURRENT_OPERATOR_TYPE = "com.example.myfirstapp.CURRENT_OPERATOR_TYPE";
     public static final String CURRENT_MAX_NUMBER = "com.example.myfirstapp.CURRENT_MAX_NUMBER";
+    public static final String CURRENT_SCORE = "com.example.myfirstapp.CURRENT_SCORE";
     public static WordStore WORD_STORE;
 
     @Override
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_LANGUAGE, 0 );
+        intent.putExtra( CURRENT_SCORE, -1 );
         startActivity(intent);
     }
 
@@ -40,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_LANGUAGE, 1 );
+        intent.putExtra( CURRENT_SCORE, -1 );
+
         startActivity(intent);
     }
 
@@ -50,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_OPERATOR_TYPE, 0 );
         intent.putExtra( CURRENT_MAX_NUMBER, 20 );
+        intent.putExtra( CURRENT_SCORE, 0 );
         startActivity(intent);
     }
 
@@ -60,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_OPERATOR_TYPE, 1 );
         intent.putExtra( CURRENT_MAX_NUMBER, 20 );
+        intent.putExtra( CURRENT_SCORE, -1 );
         startActivity(intent);
     }
 
@@ -70,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_OPERATOR_TYPE, 2 );
         intent.putExtra( CURRENT_MAX_NUMBER, 7 );
+        intent.putExtra( CURRENT_SCORE, -1 );
         startActivity(intent);
     }
 
