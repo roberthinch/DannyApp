@@ -131,11 +131,11 @@ public class MathsGame extends AppCompatActivity {
         textView.setBackgroundColor(Color.GREEN );
         totalCorrect += 1;
 
-        // score is 50 - answerTime / 100
+        // score is 50 - answerTime / 200
         if( score >= 0 ) {
             int maxScore = 50;
             int minScore = 10;
-            int answerTime = (int) ((System.currentTimeMillis() - startTime) / 100);
+            int answerTime = (int) ((System.currentTimeMillis() - startTime) / 200);
             score += Math.max(minScore, (maxScore - answerTime));
         }
 
