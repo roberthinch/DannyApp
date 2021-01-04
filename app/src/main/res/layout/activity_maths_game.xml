@@ -51,8 +51,9 @@
 
     <Button
         android:id="@+id/key_1"
-        android:layout_width="9mm"
-        android:layout_height="9mm"
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        app:cornerRadius="5mm"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="64dp"
@@ -72,8 +73,9 @@
 
     <Button
         android:id="@+id/key_2"
-        android:layout_width="9mm"
-        android:layout_height="9mm"
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        app:cornerRadius="5mm"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="64dp"
@@ -93,8 +95,9 @@
 
     <Button
         android:id="@+id/key_3"
-        android:layout_width="9mm"
-        android:layout_height="9mm"
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        app:cornerRadius="5mm"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="64dp"
@@ -106,7 +109,7 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_green_dark"
-        app:layout_constraintEnd_toEndOf="@+id/key_4"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/key_2"
         app:layout_constraintTop_toBottomOf="@+id/question_text"
         app:strokeColor="#2196F3"
@@ -114,11 +117,12 @@
 
     <Button
         android:id="@+id/key_4"
-        android:layout_width="9mm"
-        android:layout_height="9mm"
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        app:cornerRadius="5mm"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:onClick="on_select_answer"
@@ -128,18 +132,19 @@
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_blue_dark"
         app:layout_constraintEnd_toEndOf="@id/key_5"
-        app:layout_constraintStart_toStartOf="@id/key_3"
-        app:layout_constraintTop_toBottomOf="@+id/question_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/key_2"
         app:strokeColor="#2196F3"
         app:strokeWidth="2dp" />
 
     <Button
         android:id="@+id/key_5"
-        android:layout_width="9mm"
-        android:layout_height="9mm"
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        app:cornerRadius="5mm"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
         android:onClick="on_select_answer"
@@ -148,16 +153,17 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:backgroundTint="@color/design_default_color_primary"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/key_6"
         app:layout_constraintStart_toStartOf="@id/key_4"
-        app:layout_constraintTop_toBottomOf="@+id/question_text"
+        app:layout_constraintTop_toBottomOf="@id/key_2"
         app:strokeColor="#2196F3"
         app:strokeWidth="2dp" />
 
     <Button
         android:id="@+id/key_6"
-        android:layout_width="9mm"
-        android:layout_height="9mm"
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        app:cornerRadius="5mm"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="2dp"
@@ -169,16 +175,17 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_red_light"
-        app:layout_constraintEnd_toEndOf="@id/key_7"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/key_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/key_5"
+        app:layout_constraintTop_toBottomOf="@id/key_2"
         app:strokeColor="#2196F3"
         app:strokeWidth="2dp" />
 
     <Button
         android:id="@+id/key_7"
-        android:layout_width="9mm"
-        android:layout_height="9mm"
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        app:cornerRadius="5mm"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="2dp"
@@ -191,15 +198,16 @@
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_orange_light"
         app:layout_constraintEnd_toEndOf="@id/key_8"
-        app:layout_constraintStart_toStartOf="@id/key_6"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/key_5"
         app:strokeColor="#2196F3"
         app:strokeWidth="2dp" />
 
     <Button
         android:id="@+id/key_8"
-        android:layout_width="9mm"
-        android:layout_height="9mm"
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        app:cornerRadius="5mm"
         android:layout_marginStart="64dp"
         android:layout_marginLeft="64dp"
         android:layout_marginTop="2dp"
@@ -219,8 +227,9 @@
 
     <Button
         android:id="@+id/key_9"
-        android:layout_width="9mm"
-        android:layout_height="9mm"
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        app:cornerRadius="5mm"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="2dp"
@@ -232,7 +241,7 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:backgroundTint="@android:color/holo_blue_light"
-        app:layout_constraintEnd_toEndOf="@id/key_0"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/key_8"
         app:layout_constraintTop_toBottomOf="@id/key_5"
         app:strokeColor="#2196F3"
@@ -240,8 +249,10 @@
 
     <Button
         android:id="@+id/key_0"
-        android:layout_width="9mm"
-        android:layout_height="9mm"
+        android:shape="ring"
+        android:layout_width="10mm"
+        android:layout_height="10mm"
+        app:cornerRadius="5mm"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="2dp"
@@ -255,8 +266,8 @@
         android:textSize="18sp"
         app:backgroundTint="@color/purple_200"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@id/key_9"
-        app:layout_constraintTop_toBottomOf="@id/key_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/key_8"
         app:strokeColor="#2196F3"
         app:strokeWidth="2dp" />
 
