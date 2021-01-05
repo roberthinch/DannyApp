@@ -174,7 +174,7 @@ leise,quitely,,adjv
 genug,enough,,adjv
 laut,loud,,adjv
 groß,large,,adjv
-klein,amall,,adjv
+klein,small,,adjv
 schnell,fast,,adjv
 langsam,slow,,adjv
 unterrichten,to teach/instruct,,verb
@@ -186,7 +186,7 @@ reden,to talk/speak,,verb
 die Pause,the break/interval,,noun
 die Perle,the pearl,House,noun
 schnarchen,to snore,,verb
-der Traum,the dream,,verb
+der Traum,the dream,,noun
 der Zwerg,the dwarf,,noun
 die Apfelsine,the orange,Food,noun
 die Orange,the orange,Food,noun
@@ -200,3 +200,17 @@ ich traf,I met,,verb_fps
 sich ärgern,to get annoyed,,verb
 reimen,to rhyme,,verb
 schnauben,to snort,,verb
+der Stecker,the plug,,noun
+der Trim,the current/stream,,noun
+regelmäßig,regular/frequent,,adjv
+spazieren,to walk/stroll,,verb
+spazieren gehen,to go for a walk,,verb
+ich gehe spazieren,I go for a walk,,verb_fps
+der Bergsteiger,the climber/mountaineer,,noun
+dürfen,to be allowed to,,verb
+ich darf,I may,,verb_fps
+vielleicht,perhaps,,adjv
+schlagen,to hit/strike,,verb
+die Richtung,the direction,,noun
+nirgends,nowhere,,adjv
+weiter,further/continue,,adjv
