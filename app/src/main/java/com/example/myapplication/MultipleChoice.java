@@ -142,6 +142,7 @@ public class MultipleChoice extends AppCompatActivity {
         );
         button.setEnabled(false);
         button.setBackgroundTintList( myColorStateList );
+        MainActivity.WORD_STORE.correctLearnWord(question,language);
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -153,6 +154,8 @@ public class MultipleChoice extends AppCompatActivity {
         );
         button.setEnabled(false);
         button.setBackgroundTintList( myColorStateList );
+
+        MainActivity.WORD_STORE.addLearnWord(question,language);
     }
 
     private void set_other_answer(Button button)

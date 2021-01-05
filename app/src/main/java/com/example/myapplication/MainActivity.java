@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String CURRENT_MAX_NUMBER = "com.example.myfirstapp.CURRENT_MAX_NUMBER";
     public static final String CURRENT_SCORE = "com.example.myfirstapp.CURRENT_SCORE";
     public static WordStore WORD_STORE;
+    public static int INITIALISED = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,13 +23,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // load up session singleton noun store
-        WORD_STORE = new WordStore( this.getAssets(), "words.csv");
+        if( INITIALISED == 0 )
+            WORD_STORE = new WordStore( this.getAssets(), "words.csv");
+        INITIALISED = 1;
     }
 
     /** Called when the user taps the Send button */
     public void launchWhatIsInEnglishView( View view) {
         Intent intent = new Intent(this, MultipleChoice.class);
-        intent.putExtra( CURRENT_TOTAL_QUESTIONS, 20 );
+        intent.putExtra( CURRENT_TOTAL_QUESTIONS, 50 );
         intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_LANGUAGE, 0 );
@@ -38,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void launchWhatIsInGermanView( View view) {
         Intent intent = new Intent(this, MultipleChoice.class);
-        intent.putExtra( CURRENT_TOTAL_QUESTIONS, 20 );
+        intent.putExtra( CURRENT_TOTAL_QUESTIONS, 50 );
         intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_LANGUAGE, 1 );

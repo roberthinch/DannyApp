@@ -19,12 +19,19 @@ public class WordStore {
 
     private AssetManager mngr;
     private String fileName;
-    public int nRecords;
+    public int nRecords = 0;
     private String[] language1;
     private String[] language2;
     private String[] category;
     private String[] type;
     private HashMap<String,List<Integer>> categoryMap;
+    private HashMap<String,Integer> language1Map;
+    private HashMap<String,Integer> language2Map;
+    private HashMap<Integer,Integer> learnMap;
+    private Integer[] learnList;
+    private int nLearnList;
+    private int nLearnRepeat;
+    private double learnFrac;
 
     public WordStore(AssetManager appAssets, String storeFileName ) {
         mngr = appAssets;
@@ -36,10 +43,12 @@ public class WordStore {
         WordRecord record = new WordRecord( language1[idx], language2[idx], category[idx], type[idx]);
         return record;
     }
-
     public void loadData() {
         CSVReader reader;
         List<String[]> allRecords;
+
+        nLearnRepeat = 5;
+        learnFrac =  0.1;
 
         try {
             InputStream stream = mngr.open(fileName);
@@ -51,6 +60,8 @@ public class WordStore {
             language2 = new String[nRecords];
             type      = new String[nRecords];
             category  = new String[nRecords];
+            learnList = new Integer[nRecords];
+            nLearnList = 0;
 
             int i = 0;
             for( String[] line : allRecords )
@@ -66,7 +77,10 @@ public class WordStore {
         }
 
         // create the type map
-        categoryMap = new HashMap<String,List<Integer>>();
+        categoryMap  = new HashMap<String,List<Integer>>();
+        language1Map = new HashMap<String,Integer>();
+        language2Map = new HashMap<String,Integer>();
+        learnMap     = new HashMap<Integer,Integer>();
 
         for( int i = 0; i < nRecords; i++ ) {
             if( !categoryMap.containsKey(category[i]) ) {
@@ -74,8 +88,9 @@ public class WordStore {
                 categoryMap.put(category[i],categoryList);
             };
             categoryMap.get(category[i]).add(i);
+            language1Map.put(language1[i],i);
+            language2Map.put(language2[i],i);
         }
-
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -112,14 +127,24 @@ public class WordStore {
         List<Integer> categoryIndicies;
         int indices[] = new int[n];
         if( filterCategory == null ) {
-            // if no categroy given then pick from the whole store
-            idx = rnd.nextInt(nRecords - 1);
+            // get from the learn list if applicable
+            double rLearn = rnd.nextDouble();
+            if( nLearnList > 0 && rLearn < ( learnFrac * nLearnList ) ) {
+                // pick from the learn list
+                idx = 0;
+                if( nLearnList > 1 )
+                    idx = rnd.nextInt(nLearnList - 1);
+                idx = learnList[idx];
+            }
+            else {
+                idx = rnd.nextInt(nRecords - 1);
+            }
             categoryIndicies = categoryMap.get(category[idx]);
             nRec = categoryIndicies.size();
 
-            // now we need to select the index of the first chosen record from the category list
-            for (int i = 0; i < nRec; i++) {
-                if (categoryIndicies.get(i) == idx)
+             // now we need to select the index of the first chosen record from the category list
+             for (int i = 0; i < nRec; i++) {
+                 if (categoryIndicies.get(i) == idx)
                     indices[0] = i;
             }
         } else {
@@ -159,4 +184,51 @@ public class WordStore {
 
         return records;
     }
+
+    public void addLearnWord( String word, int language )
+    {
+        int wordIndex;
+        if( language == 0 ) {
+            wordIndex = language1Map.get(word);
+        } else {
+            wordIndex = language2Map.get(word);
+        }
+
+        // add to learn list if not a current word
+        if( !learnMap.containsKey(wordIndex) ) {
+            learnList[nLearnList++]=wordIndex;
+        }
+
+        learnMap.put(wordIndex,nLearnRepeat);
+    }
+
+    public void correctLearnWord( String word, int language )
+    {
+        int wordIndex;
+        if( language == 0 ) {
+            wordIndex = language1Map.get(word);
+        } else {
+            wordIndex = language2Map.get(word);
+        }
+
+        if( !learnMap.containsKey(wordIndex))
+            return;
+
+        // now see how many times it has been repeated
+        int nRepeat = learnMap.get(wordIndex);
+        if( nRepeat > 1 ) {
+            learnMap.put(wordIndex, nRepeat - 1);
+        }
+        else {
+            // now we have done the maximum number of times we can remove;
+            for( int i = 0; i < nLearnList; i++ ) {
+                if( learnList[i]== wordIndex)
+                    learnList[i] = learnList[ nLearnList-1];
+            }
+            nLearnList--;
+            learnMap.remove(wordIndex);
+        }
+    }
+
+
 }
