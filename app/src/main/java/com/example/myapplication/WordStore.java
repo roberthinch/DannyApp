@@ -32,6 +32,7 @@ public class WordStore {
     private int nLearnList;
     private int nLearnRepeat;
     private double learnFrac;
+    private double maxLearnFrac;
 
     public WordStore(AssetManager appAssets, String storeFileName ) {
         mngr = appAssets;
@@ -49,6 +50,7 @@ public class WordStore {
 
         nLearnRepeat = 5;
         learnFrac =  0.1;
+        maxLearnFrac =  0.8;
 
         try {
             InputStream stream = mngr.open(fileName);
@@ -61,15 +63,21 @@ public class WordStore {
             type      = new String[nRecords];
             category  = new String[nRecords];
             learnList = new Integer[nRecords];
+            learnMap  = new HashMap<Integer,Integer>();
             nLearnList = 0;
 
             int i = 0;
             for( String[] line : allRecords )
             {
-                language1[i]  = line[0];
-                language2[i]  = line[1];
-                type[i]       = line[2];
-                category[i++] = line[3];
+                language1[i] = line[0];
+                language2[i] = line[1];
+                type[i]      = line[2];
+                category[i]  = line[3];
+                if(line[4].equals("1")) {
+                    learnList[nLearnList++]=i;
+                    learnMap.put(i,nLearnRepeat);
+                }
+                i++;
             }
             reader.close();
         } catch (IOException e) {
@@ -80,7 +88,6 @@ public class WordStore {
         categoryMap  = new HashMap<String,List<Integer>>();
         language1Map = new HashMap<String,Integer>();
         language2Map = new HashMap<String,Integer>();
-        learnMap     = new HashMap<Integer,Integer>();
 
         for( int i = 0; i < nRecords; i++ ) {
             if( !categoryMap.containsKey(category[i]) ) {
@@ -129,7 +136,7 @@ public class WordStore {
         if( filterCategory == null ) {
             // get from the learn list if applicable
             double rLearn = rnd.nextDouble();
-            if( nLearnList > 0 && rLearn < ( learnFrac * nLearnList ) ) {
+            if( nLearnList > 0 && rLearn < maxLearnFrac && rLearn < ( learnFrac * nLearnList ) ) {
                 // pick from the learn list
                 idx = 0;
                 if( nLearnList > 1 )
