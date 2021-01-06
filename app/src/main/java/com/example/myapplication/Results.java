@@ -34,7 +34,7 @@ public class Results extends AppCompatActivity {
         TextView textView = findViewById(R.id.resultText);
         textView.setText(text);
 
-        if( 1.0 * totalCorrect / totalQuestions > 0.849 ){
+        if( 1.0 * totalCorrect / totalQuestions > 0.849 && MainActivity.SOUND_EFFECTS ){
             MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.cheers);
             mp.start();
         }

@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String CURRENT_OPERATOR_TYPE = "com.example.myfirstapp.CURRENT_OPERATOR_TYPE";
     public static final String CURRENT_MAX_NUMBER = "com.example.myfirstapp.CURRENT_MAX_NUMBER";
     public static final String CURRENT_SCORE = "com.example.myfirstapp.CURRENT_SCORE";
+    public static boolean SOUND_EFFECTS = true;
     public static WordStore WORD_STORE;
     public static int INITIALISED = 0;
 
@@ -84,8 +85,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /** Called when the user taps the Send button */
-    public void launchAddWords( View view) {
-        Intent intent = new Intent(this, addWords.class);
+    public void launchSettings( View view) {
+        Intent intent = new Intent(this, settings.class);
         startActivity(intent);
     }
 }

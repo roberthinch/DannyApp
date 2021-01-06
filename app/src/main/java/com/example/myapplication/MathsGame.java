@@ -139,8 +139,10 @@ public class MathsGame extends AppCompatActivity {
             score += Math.max(minScore, (maxScore - answerTime));
         }
 
-        MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.cheers);
-        mp.start();
+        if( MainActivity.SOUND_EFFECTS ) {
+            MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.cheers);
+            mp.start();
+        }
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -150,8 +152,10 @@ public class MathsGame extends AppCompatActivity {
         textView.setText( question + String.valueOf(correctAnswer));
         textView.setBackgroundColor(Color.RED );
 
-        MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.wrong);
-        mp.start();
+        if( MainActivity.SOUND_EFFECTS ) {
+            MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.wrong);
+            mp.start();
+        }
     }
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public void on_select_answer(View view)

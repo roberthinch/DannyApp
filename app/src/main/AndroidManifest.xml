@@ -19,7 +19,7 @@
             android:theme="@style/Theme.MyApplication.NoActionBar">
         </activity>
         <activity
-            android:name=".addWords"
+            android:name=".settings"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
