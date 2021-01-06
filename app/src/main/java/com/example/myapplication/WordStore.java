@@ -67,15 +67,24 @@ public class WordStore {
             nLearnList = 0;
 
             int i = 0;
+            int ldx;
             for( String[] line : allRecords )
             {
                 language1[i] = line[0];
                 language2[i] = line[1];
                 type[i]      = line[2];
                 category[i]  = line[3];
-                if(line[4].equals("1")) {
+
+                try {
+                    ldx = Integer.parseInt(line[4]);
+                }
+                catch (NumberFormatException e) {
+                    ldx = 0;
+                }
+
+                if( ldx > 0 ) {
                     learnList[nLearnList++]=i;
-                    learnMap.put(i,nLearnRepeat);
+                    learnMap.put(i,ldx);
                 }
                 i++;
             }

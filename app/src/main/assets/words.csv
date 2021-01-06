@@ -207,10 +207,25 @@ spazieren,to walk/stroll,,verb,1
 spazieren gehen,to go for a walk,,verb,1
 ich gehe spazieren,I go for a walk,,verb_fps,1
 der Bergsteiger,the climber/mountaineer,,noun,1
-dürfen,to be allowed to,,verb,1
-ich darf,I may,,verb_fps,1
-vielleicht,perhaps,,adjv,1
-schlagen,to hit/strike,,verb,1
-die Richtung,the direction,,noun,1
-nirgends,nowhere,,adjv,1
-weiter,further/continue,,adjv,1
+dürfen,to be allowed to,,verb,3
+ich darf,I may,,verb_fps,3
+vielleicht,perhaps,,adjv,2
+schlagen,to hit/strike,,verb,2
+die Richtung,the direction,,noun,2
+nirgends,nowhere,,adjv,3
+weiter,further/continue,,adjv,3
+der Kreis,the circle,Shapes,noun,2
+das Oval,the oval,Shapes,noun,2
+das Dreieck,the triangle,Shapes,noun,2
+das Quadrat,the square,Shapes,noun,2
+das Rechteck,the rectangle,Shapes,noun,2
+der Halbkreis,the semicircle,Shapes,noun,2
+geometrische,geometry/form,Shapes,adjv,2
+die Ecke,the corner,Shapes,noun,2
+gerade,straight,Shapes,adjv,2
+gebogen,curved,Shapes,adjv,3
+die Gardine,the curtain,Home,noun,5
+das Eichhörnchen,the squirrel,Animals,noun,5
+das Lineal,the ruler,Shapes,noun,5
+einsperren,to lock up,,verb,5
+retten,to rescue,,verb,5
