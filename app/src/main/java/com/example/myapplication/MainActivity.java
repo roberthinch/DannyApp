@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
     public static boolean SOUND_EFFECTS = true;
     public static WordStore WORD_STORE;
     public static int INITIALISED = 0;
+    public static int MAX_NUMBER_ADD_GAME = 20;
+    public static int MAX_NUMBER_SUBTRACT_GAME = 20;
+    public static int MAX_NUMBER_MUTIPLIY_GAME = 7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_OPERATOR_TYPE, 0 );
-        intent.putExtra( CURRENT_MAX_NUMBER, 20 );
+        intent.putExtra( CURRENT_MAX_NUMBER, MAX_NUMBER_ADD_GAME );
         intent.putExtra( CURRENT_SCORE, 0 );
         startActivity(intent);
     }
@@ -68,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_OPERATOR_TYPE, 1 );
-        intent.putExtra( CURRENT_MAX_NUMBER, 20 );
+        intent.putExtra( CURRENT_MAX_NUMBER, MAX_NUMBER_SUBTRACT_GAME );
         intent.putExtra( CURRENT_SCORE, -1 );
         startActivity(intent);
     }
@@ -79,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_OPERATOR_TYPE, 2 );
-        intent.putExtra( CURRENT_MAX_NUMBER, 7 );
+        intent.putExtra( CURRENT_MAX_NUMBER, MAX_NUMBER_MUTIPLIY_GAME );
         intent.putExtra( CURRENT_SCORE, -1 );
         startActivity(intent);
     }

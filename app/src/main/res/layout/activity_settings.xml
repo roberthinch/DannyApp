@@ -15,11 +15,123 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="36dp"
         android:layout_marginRight="36dp"
+        android:singleLine="false"
+        android:text="@string/sound_effects"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/maxAddNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
         android:singleLine="false"
-        android:text="@string/sound_effects"
-        tools:layout_editor_absoluteX="161dp" />
+        android:text="Max in Add Game"
+        app:layout_constraintEnd_toStartOf="@+id/maxAddNumberBar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sound_effects" />
+
+    <SeekBar
+        android:id="@+id/maxAddNumberBar"
+        android:layout_width="150dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/maxAddNumberValue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/maxAddNumberText"
+        app:layout_constraintTop_toBottomOf="@+id/sound_effects" />
+
+    <TextView
+        android:id="@+id/maxAddNumberValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/maxAddNumberBar"
+        app:layout_constraintTop_toBottomOf="@+id/sound_effects" />
+
+    <TextView
+        android:id="@+id/maxSubtractNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="Max in Subtract Game"
+        app:layout_constraintEnd_toStartOf="@+id/maxSubtractNumberBar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maxAddNumberValue" />
+
+    <SeekBar
+        android:id="@+id/maxSubtractNumberBar"
+        android:layout_width="150dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/maxSubtractNumberValue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/maxSubtractNumberText"
+        app:layout_constraintTop_toBottomOf="@+id/maxAddNumberValue" />
+
+    <TextView
+        android:id="@+id/maxSubtractNumberValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/maxSubtractNumberBar"
+        app:layout_constraintTop_toBottomOf="@+id/maxAddNumberValue"/>
+
+    <TextView
+        android:id="@+id/maxMultiplyNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="Max in Mutiply Game"
+        app:layout_constraintEnd_toStartOf="@+id/maxMultiplyNumberBar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maxSubtractNumberValue" />
+
+    <SeekBar
+        android:id="@+id/maxMultiplyNumberBar"
+        android:layout_width="150dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/maxMultiplyNumberValue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/maxMultiplyNumberText"
+        app:layout_constraintTop_toBottomOf="@+id/maxSubtractNumberValue" />
+
+    <TextView
+        android:id="@+id/maxMultiplyNumberValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/maxMultiplyNumberBar"
+        app:layout_constraintTop_toBottomOf="@+id/maxSubtractNumberValue"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
