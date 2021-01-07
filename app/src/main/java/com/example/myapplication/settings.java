@@ -30,6 +30,44 @@ public class settings extends AppCompatActivity {
             }
         });
 
+        // set up add game mode
+        sw = (Switch) findViewById(R.id.add_game_mode);
+        sw.setChecked(MainActivity.ADD_GAME_MODE);
+        sw.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    MainActivity.ADD_GAME_MODE = true;
+                } else {
+                    MainActivity.ADD_GAME_MODE = false;
+                }
+            }
+        });
+
+        // set up add game mode
+        sw = (Switch) findViewById(R.id.subtract_game_mode);
+        sw.setChecked(MainActivity.SUBTRACT_GAME_MODE);
+        sw.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    MainActivity.SUBTRACT_GAME_MODE = true;
+                } else {
+                    MainActivity.SUBTRACT_GAME_MODE = false;
+                }
+            }
+        });
+        // set up add game mode
+        sw = (Switch) findViewById(R.id.multiply_game_mode);
+        sw.setChecked(MainActivity.MUTIPLY_GAME_MODE);
+        sw.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    MainActivity.MUTIPLY_GAME_MODE = true;
+                } else {
+                    MainActivity.MUTIPLY_GAME_MODE = false;
+                }
+            }
+        });
+
         // set up adding slider
         TextView maxAddView = (TextView) findViewById(R.id.maxAddNumberValue);
         maxAddView.setText( String.valueOf( MainActivity.MAX_NUMBER_ADD_GAME ));

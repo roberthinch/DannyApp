@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -22,6 +21,56 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Switch
+        android:id="@+id/add_game_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:singleLine="false"
+        android:text="Add Game Mode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sound_effects" />
+
+
+    <Switch
+        android:id="@+id/subtract_game_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:singleLine="false"
+        android:text="Subtract Game Mode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_game_mode" />
+
+
+    <Switch
+        android:id="@+id/multiply_game_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:singleLine="false"
+        android:text="Mutiply Game Mode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtract_game_mode" />
+
     <TextView
         android:id="@+id/maxAddNumberText"
         android:layout_width="wrap_content"
@@ -34,7 +83,7 @@
         app:layout_constraintEnd_toStartOf="@+id/maxAddNumberBar"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sound_effects" />
+        app:layout_constraintTop_toBottomOf="@+id/multiply_game_mode" />
 
     <SeekBar
         android:id="@+id/maxAddNumberBar"
@@ -44,7 +93,7 @@
         app:layout_constraintEnd_toStartOf="@+id/maxAddNumberValue"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/maxAddNumberText"
-        app:layout_constraintTop_toBottomOf="@+id/sound_effects" />
+        app:layout_constraintTop_toBottomOf="@+id/multiply_game_mode"/>
 
     <TextView
         android:id="@+id/maxAddNumberValue"
@@ -57,7 +106,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/maxAddNumberBar"
-        app:layout_constraintTop_toBottomOf="@+id/sound_effects" />
+        app:layout_constraintTop_toBottomOf="@+id/multiply_game_mode"/>
 
     <TextView
         android:id="@+id/maxSubtractNumberText"

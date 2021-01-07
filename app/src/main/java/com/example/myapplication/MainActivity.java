@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     public static int MAX_NUMBER_ADD_GAME = 20;
     public static int MAX_NUMBER_SUBTRACT_GAME = 20;
     public static int MAX_NUMBER_MUTIPLIY_GAME = 7;
+    public static boolean ADD_GAME_MODE = true;
+    public static boolean SUBTRACT_GAME_MODE = false;
+    public static boolean MUTIPLY_GAME_MODE = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +64,11 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_OPERATOR_TYPE, 0 );
         intent.putExtra( CURRENT_MAX_NUMBER, MAX_NUMBER_ADD_GAME );
-        intent.putExtra( CURRENT_SCORE, 0 );
+        if( ADD_GAME_MODE ) {
+            intent.putExtra(CURRENT_SCORE, 0);
+        } else {
+            intent.putExtra(CURRENT_SCORE, -1);
+        }
         startActivity(intent);
     }
 
@@ -72,7 +79,11 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_OPERATOR_TYPE, 1 );
         intent.putExtra( CURRENT_MAX_NUMBER, MAX_NUMBER_SUBTRACT_GAME );
-        intent.putExtra( CURRENT_SCORE, -1 );
+        if( SUBTRACT_GAME_MODE ) {
+            intent.putExtra(CURRENT_SCORE, 0);
+        } else {
+            intent.putExtra(CURRENT_SCORE, -1);
+        }
         startActivity(intent);
     }
 
@@ -83,7 +94,11 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         intent.putExtra( CURRENT_OPERATOR_TYPE, 2 );
         intent.putExtra( CURRENT_MAX_NUMBER, MAX_NUMBER_MUTIPLIY_GAME );
-        intent.putExtra( CURRENT_SCORE, -1 );
+        if( MUTIPLY_GAME_MODE ) {
+            intent.putExtra(CURRENT_SCORE, 0);
+        } else {
+            intent.putExtra(CURRENT_SCORE, -1);
+        }
         startActivity(intent);
     }
 
