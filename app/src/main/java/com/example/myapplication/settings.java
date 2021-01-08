@@ -17,6 +17,14 @@ public class settings extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
+        // upper and lower limits of the math game numbers
+        int minAdd  = 9;
+        int maxAdd  = 49;
+        int minSub  = 9;
+        int maxSub  = 49;
+        int minMult = 4;
+        int maxMult = 9;
+
         // set up sound effects switch
         Switch sw = (Switch) findViewById(R.id.sound_effects);
         sw.setChecked(MainActivity.SOUND_EFFECTS);
@@ -72,9 +80,8 @@ public class settings extends AppCompatActivity {
         TextView maxAddView = (TextView) findViewById(R.id.maxAddNumberValue);
         maxAddView.setText( String.valueOf( MainActivity.MAX_NUMBER_ADD_GAME ));
         SeekBar addBar = (SeekBar)findViewById(R.id.maxAddNumberBar);
-        addBar.setMax(49);
-        addBar.setMin(9);
-        addBar.setProgress(MainActivity.MAX_NUMBER_ADD_GAME);
+        addBar.setMax( maxAdd-minAdd );
+        addBar.setProgress( MainActivity.MAX_NUMBER_ADD_GAME-minAdd );
         addBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onStopTrackingTouch(SeekBar arg0) {
@@ -84,8 +91,8 @@ public class settings extends AppCompatActivity {
             }
             @Override
             public void onProgressChanged(SeekBar arg0, int arg1, boolean arg2) {
-                maxAddView.setText( String.valueOf(arg1) );
-                MainActivity.MAX_NUMBER_ADD_GAME = arg1;
+                maxAddView.setText( String.valueOf( arg1+minAdd ) );
+                MainActivity.MAX_NUMBER_ADD_GAME = arg1+minAdd;
             }
         });
 
@@ -93,9 +100,8 @@ public class settings extends AppCompatActivity {
         TextView maxSubView = (TextView) findViewById(R.id.maxSubtractNumberValue);
         maxSubView.setText( String.valueOf( MainActivity.MAX_NUMBER_SUBTRACT_GAME ));
         SeekBar subBar = (SeekBar)findViewById(R.id.maxSubtractNumberBar);
-        subBar.setMax(49);
-        subBar.setMin(9);
-        subBar.setProgress(MainActivity.MAX_NUMBER_SUBTRACT_GAME);
+        subBar.setMax( maxSub - minSub );
+        subBar.setProgress( MainActivity.MAX_NUMBER_SUBTRACT_GAME-minSub );
         subBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onStopTrackingTouch(SeekBar arg0) {
@@ -105,8 +111,8 @@ public class settings extends AppCompatActivity {
             }
             @Override
             public void onProgressChanged(SeekBar arg0, int arg1, boolean arg2) {
-                maxSubView.setText( String.valueOf(arg1) );
-                MainActivity.MAX_NUMBER_SUBTRACT_GAME = arg1;
+                maxSubView.setText( String.valueOf( arg1 + minSub ) );
+                MainActivity.MAX_NUMBER_SUBTRACT_GAME = arg1 + minSub;
             }
         });
 
@@ -114,9 +120,8 @@ public class settings extends AppCompatActivity {
         TextView maxMultView = (TextView) findViewById(R.id.maxMultiplyNumberValue);
         maxMultView.setText( String.valueOf( MainActivity.MAX_NUMBER_MUTIPLIY_GAME ));
         SeekBar multBar = (SeekBar)findViewById(R.id.maxMultiplyNumberBar);
-        multBar.setMax(9);
-        multBar.setMin(4);
-        multBar.setProgress(MainActivity.MAX_NUMBER_MUTIPLIY_GAME);
+        multBar.setMax(maxMult-minMult);
+        multBar.setProgress(MainActivity.MAX_NUMBER_MUTIPLIY_GAME-minMult);
         multBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onStopTrackingTouch(SeekBar arg0) {
@@ -126,8 +131,8 @@ public class settings extends AppCompatActivity {
             }
             @Override
             public void onProgressChanged(SeekBar arg0, int arg1, boolean arg2) {
-                maxMultView.setText( String.valueOf(arg1) );
-                MainActivity.MAX_NUMBER_MUTIPLIY_GAME = arg1;
+                maxMultView.setText( String.valueOf(arg1+minMult) );
+                MainActivity.MAX_NUMBER_MUTIPLIY_GAME = arg1+minMult;
             }
         });
 

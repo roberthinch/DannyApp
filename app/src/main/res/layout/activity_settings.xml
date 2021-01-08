@@ -7,7 +7,7 @@
 
     <Switch
         android:id="@+id/sound_effects"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
@@ -23,11 +23,11 @@
 
     <Switch
         android:id="@+id/add_game_mode"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="36dp"
         android:layout_marginRight="36dp"
         android:singleLine="false"
@@ -40,7 +40,7 @@
 
     <Switch
         android:id="@+id/subtract_game_mode"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
@@ -57,7 +57,7 @@
 
     <Switch
         android:id="@+id/multiply_game_mode"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
@@ -73,7 +73,7 @@
 
     <TextView
         android:id="@+id/maxAddNumberText"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:ems="10"
@@ -110,9 +110,9 @@
 
     <TextView
         android:id="@+id/maxSubtractNumberText"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:singleLine="false"
@@ -126,7 +126,7 @@
         android:id="@+id/maxSubtractNumberBar"
         android:layout_width="150dp"
         android:layout_height="18dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toStartOf="@+id/maxSubtractNumberValue"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/maxSubtractNumberText"
@@ -136,7 +136,7 @@
         android:id="@+id/maxSubtractNumberValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:inputType="textPersonName"
         android:singleLine="false"
         android:text="20"
@@ -147,9 +147,9 @@
 
     <TextView
         android:id="@+id/maxMultiplyNumberText"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:singleLine="false"
@@ -163,7 +163,7 @@
         android:id="@+id/maxMultiplyNumberBar"
         android:layout_width="150dp"
         android:layout_height="18dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toStartOf="@+id/maxMultiplyNumberValue"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/maxMultiplyNumberText"
@@ -173,7 +173,7 @@
         android:id="@+id/maxMultiplyNumberValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:inputType="textPersonName"
         android:singleLine="false"
         android:text="20"
