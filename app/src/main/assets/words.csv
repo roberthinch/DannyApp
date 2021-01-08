@@ -135,7 +135,7 @@ gefallen,to please,,verb,0
 reichen,to reach,,verb,0
 benutzen,to use,,verb,0
 stolpern,to stumble,,verb,0
-ich nehme,I take,,verb_fps,0
+ich nehme,I take,,verb_fps,1
 heben,to lift,,verb,0
 sammeln,to collect,,verb,0
 beißen,to bite,,verb,0
@@ -203,29 +203,53 @@ schnauben,to snort,,verb,0
 der Stecker,the plug,,noun,1
 der Strom,the current/stream,,noun,1
 regelmäßig,regular/frequent,,adjv,1
-spazieren,to walk/stroll,,verb,1
-spazieren gehen,to go for a walk,,verb,1
-ich gehe spazieren,I go for a walk,,verb_fps,1
-der Bergsteiger,the climber/mountaineer,,noun,1
-dürfen,to be allowed to,,verb,3
-ich darf,I may,,verb_fps,3
-vielleicht,perhaps,,adjv,2
-schlagen,to hit/strike,,verb,2
-die Richtung,the direction,,noun,2
-nirgends,nowhere,,adjv,3
-weiter,further/continue,,adjv,3
-der Kreis,the circle,Shapes,noun,2
-das Oval,the oval,Shapes,noun,2
-das Dreieck,the triangle,Shapes,noun,2
-das Quadrat,the square,Shapes,noun,2
-das Rechteck,the rectangle,Shapes,noun,2
-der Halbkreis,the semicircle,Shapes,noun,2
-geometrische,geometry/form,Shapes,adjv,2
-die Ecke,the corner,Shapes,noun,2
-gerade,straight,Shapes,adjv,2
-gebogen,curved,Shapes,adjv,3
-die Gardine,the curtain,Home,noun,5
-das Eichhörnchen,the squirrel,Animals,noun,5
-das Lineal,the ruler,Shapes,noun,5
-einsperren,to lock up,,verb,5
-retten,to rescue,,verb,5
+spazieren,to walk/stroll,,verb,0
+spazieren gehen,to go for a walk,,verb,0
+ich gehe spazieren,I go for a walk,,verb_fps,0
+der Bergsteiger,the climber/mountaineer,,noun,0
+dürfen,to be allowed to,,verb,1
+ich darf,I may,,verb_fps,1
+vielleicht,perhaps,,adjv,1
+schlagen,to hit/strike,,verb,1
+die Richtung,the direction,,noun,1
+nirgends,nowhere,,adjv,1
+weiter,further/continue,,adjv,0
+der Kreis,the circle,Shapes,noun,0
+das Oval,the oval,Shapes,noun,0
+das Dreieck,the triangle,Shapes,noun,0
+das Quadrat,the square,Shapes,noun,0
+das Rechteck,the rectangle,Shapes,noun,1
+der Halbkreis,the semicircle,Shapes,noun,1
+geometrische,geometry/form,Shapes,adjv,1
+die Ecke,the corner,Shapes,noun,0
+gerade,straight,Shapes,adjv,1
+gebogen,curved,Shapes,adjv,1
+die Gardine,the curtain,Home,noun,1
+das Eichhörnchen,the squirrel,Animals,noun,1
+das Lineal,the ruler,Shapes,noun,1
+einsperren,to lock up,,verb,1
+retten,to rescue,,verb,1
+der Fluss,the river,,noun,1
+der Buchstabe,the letter (alphabet),,noun,1
+die Null,the zero,,noun,1
+gefährlich,dangerous,,noun,2
+ich wurde,I became,,verb_fps,2
+ich würde,I would,,verb_fps,2
+der Schlüssel,the key,,noun,2
+senken,to lower,,verb,2
+reiten,to ride,,verb,2
+bange,scared,,adjv,2
+der Wachmann,the security guard,,noun,2
+doppelt,double,,adjv,3
+dreifach,triple,,adjv,5
+weniger,less,,adjv,3
+die Eiche,the oak tree,,noun,2
+die Eichel,the acorn,,noun,2
+übrig,remaining,,adjv,5
+nehmen,to take,,verb,1
+ich nahm,I took,,verb_fps,5
+manchmal,sometimes,,adjv,5
+bockig,stubborn,,adjv,5
+übrigens,besides,,adjv,5
+verwirren,to confuse,,verb,5
+gelegentlich,occasionally,,adjv,5

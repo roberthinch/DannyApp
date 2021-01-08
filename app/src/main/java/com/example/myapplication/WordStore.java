@@ -50,7 +50,7 @@ public class WordStore {
 
         nLearnRepeat = 5;
         learnFrac =  0.1;
-        maxLearnFrac =  0.8;
+        maxLearnFrac =  0.7;
 
         try {
             InputStream stream = mngr.open(fileName);
