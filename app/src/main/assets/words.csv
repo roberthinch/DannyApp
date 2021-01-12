@@ -200,56 +200,69 @@ ich traf,I met,,verb_fps,0
 sich ärgern,to get annoyed,,verb,0
 reimen,to rhyme,,verb,0
 schnauben,to snort,,verb,0
-der Stecker,the plug,,noun,1
-der Strom,the current/stream,,noun,1
+der Stecker,the plug,,noun,0
+der Strom,the current/stream,,noun,0
 regelmäßig,regular/frequent,,adjv,1
 spazieren,to walk/stroll,,verb,0
 spazieren gehen,to go for a walk,,verb,0
 ich gehe spazieren,I go for a walk,,verb_fps,0
 der Bergsteiger,the climber/mountaineer,,noun,0
-dürfen,to be allowed to,,verb,1
-ich darf,I may,,verb_fps,1
-vielleicht,perhaps,,adjv,1
+dürfen,to be allowed to,,verb,0
+ich darf,I may,,verb_fps,0
+vielleicht,perhaps,,adjv,0
 schlagen,to hit/strike,,verb,1
-die Richtung,the direction,,noun,1
-nirgends,nowhere,,adjv,1
+die Richtung,the direction,,noun,0
+nirgends,nowhere,,adjv,0
 weiter,further/continue,,adjv,0
 der Kreis,the circle,Shapes,noun,0
 das Oval,the oval,Shapes,noun,0
 das Dreieck,the triangle,Shapes,noun,0
 das Quadrat,the square,Shapes,noun,0
-das Rechteck,the rectangle,Shapes,noun,1
-der Halbkreis,the semicircle,Shapes,noun,1
-geometrische,geometry/form,Shapes,adjv,1
+das Rechteck,the rectangle,Shapes,noun,0
+der Halbkreis,the semicircle,Shapes,noun,0
+geometrische,geometry/form,Shapes,adjv,0
 die Ecke,the corner,Shapes,noun,0
 gerade,straight,Shapes,adjv,1
 gebogen,curved,Shapes,adjv,1
-die Gardine,the curtain,Home,noun,1
-das Eichhörnchen,the squirrel,Animals,noun,1
+die Gardine,the curtain,Home,noun,0
+das Eichhörnchen,the squirrel,Animals,noun,0
 das Lineal,the ruler,Shapes,noun,1
-einsperren,to lock up,,verb,1
-retten,to rescue,,verb,1
-der Fluss,the river,,noun,1
-der Buchstabe,the letter (alphabet),,noun,1
-die Null,the zero,,noun,1
-gefährlich,dangerous,,noun,2
-ich wurde,I became,,verb_fps,2
-ich würde,I would,,verb_fps,2
-der Schlüssel,the key,,noun,2
-senken,to lower,,verb,2
-reiten,to ride,,verb,2
-bange,scared,,adjv,2
-der Wachmann,the security guard,,noun,2
-doppelt,double,,adjv,3
-dreifach,triple,,adjv,5
-weniger,less,,adjv,3
-die Eiche,the oak tree,,noun,2
-die Eichel,the acorn,,noun,2
+einsperren,to lock up,,verb,0
+retten,to rescue,,verb,0
+der Fluss,the river,,noun,0
+der Buchstabe,the letter (alphabet),,noun,0
+die Null,the zero,,noun,0
+gefährlich,dangerous,,adjv,1
+ich wurde,I became,,verb_fps,1
+ich würde,I would,,verb_fps,1
+der Schlüssel,the key,,noun,0
+senken,to lower,,verb,1
+reiten,to ride,,verb,1
+bange,scared,,adjv,1
+der Wachmann,the security guard,,noun,0
+doppelt,double,,adjv,1
+dreifach,triple,,adjv,1
+weniger,less,,adjv,1
+die Eiche,the oak tree,,noun,1
+die Eichel,the acorn,,noun,1
 übrig,remaining,,adjv,5
 nehmen,to take,,verb,1
-ich nahm,I took,,verb_fps,5
-manchmal,sometimes,,adjv,5
-bockig,stubborn,,adjv,5
-übrigens,besides,,adjv,5
-verwirren,to confuse,,verb,5
-gelegentlich,occasionally,,adjv,5
+ich nahm,I took,,verb_fps,3
+manchmal,sometimes,,adjv,2
+bockig,stubborn,,adjv,3
+übrigens,besides,,adjv,3
+verwirren,to confuse,,verb,3
+gelegentlich,occasionally,,adjv,3
+der Regenschirm,the umbrella,,noun,1
+verbinden,to join/connect,,verb,5
+der Bleistift,the pencil,,noun,1
+der Rahmen,the frame,,noun,5
+stolz,proud,,adjv,5
+das Haupt,the chief,,noun,5
+die Frau,the wife,,noun,5
+der Ehemann,the husband,,noun,5
+verheiraten,to marry,,verb,5
+das Dorf,the village,,noun,5
+diw Stadt,the town,,noun,5
+das Zelt,the tent,,noun,5
+kräftig,strong,,adjv,5

@@ -18,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
     public static WordStore WORD_STORE;
     public static int INITIALISED = 0;
     public static int MAX_NUMBER_ADD_GAME = 30;
-    public static int MAX_NUMBER_SUBTRACT_GAME = 15;
+    public static int MAX_NUMBER_SUBTRACT_GAME = 20;
     public static int MAX_NUMBER_MUTIPLIY_GAME = 8;
     public static boolean ADD_GAME_MODE = true;
-    public static boolean SUBTRACT_GAME_MODE = false;
+    public static boolean SUBTRACT_GAME_MODE = true;
     public static boolean MUTIPLY_GAME_MODE = false;
 
     @Override
