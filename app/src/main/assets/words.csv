@@ -189,7 +189,6 @@ schnarchen,to snore,,verb,0
 der Traum,the dream,,noun,0
 der Zwerg,the dwarf,,noun,0
 die Apfelsine,the orange,Food,noun,0
-die Orange,the orange,Food,noun,0
 sich freuen,to be pleased with,,verb,0
 schwer,heavy/hard,,adjv,0
 licht,light,,adjv,0
@@ -202,7 +201,7 @@ reimen,to rhyme,,verb,0
 schnauben,to snort,,verb,0
 der Stecker,the plug,,noun,0
 der Strom,the current/stream,,noun,0
-regelmäßig,regular/frequent,,adjv,1
+regelmäßig,regular/frequent,,adjv,0
 spazieren,to walk/stroll,,verb,0
 spazieren gehen,to go for a walk,,verb,0
 ich gehe spazieren,I go for a walk,,verb_fps,0
@@ -210,7 +209,7 @@ der Bergsteiger,the climber/mountaineer,,noun,0
 dürfen,to be allowed to,,verb,0
 ich darf,I may,,verb_fps,0
 vielleicht,perhaps,,adjv,0
-schlagen,to hit/strike,,verb,1
+schlagen,to hit/strike,,verb,0
 die Richtung,the direction,,noun,0
 nirgends,nowhere,,adjv,0
 weiter,further/continue,,adjv,0
@@ -222,47 +221,99 @@ das Rechteck,the rectangle,Shapes,noun,0
 der Halbkreis,the semicircle,Shapes,noun,0
 geometrische,geometry/form,Shapes,adjv,0
 die Ecke,the corner,Shapes,noun,0
-gerade,straight,Shapes,adjv,1
-gebogen,curved,Shapes,adjv,1
+gerade,straight,Shapes,adjv,0
+gebogen,curved,Shapes,adjv,0
 die Gardine,the curtain,Home,noun,0
 das Eichhörnchen,the squirrel,Animals,noun,0
-das Lineal,the ruler,Shapes,noun,1
+das Lineal,the ruler,Shapes,noun,0
 einsperren,to lock up,,verb,0
 retten,to rescue,,verb,0
 der Fluss,the river,,noun,0
 der Buchstabe,the letter (alphabet),,noun,0
 die Null,the zero,,noun,0
-gefährlich,dangerous,,adjv,1
-ich wurde,I became,,verb_fps,1
-ich würde,I would,,verb_fps,1
+gefährlich,dangerous,,adjv,0
+ich wurde,I became,,verb_fps,0
+ich würde,I would,,verb_fps,0
 der Schlüssel,the key,,noun,0
-senken,to lower,,verb,1
-reiten,to ride,,verb,1
-bange,scared,,adjv,1
+senken,to lower,,verb,0
+reiten,to ride,,verb,0
+bange,scared,,adjv,0
 der Wachmann,the security guard,,noun,0
-doppelt,double,,adjv,1
-dreifach,triple,,adjv,1
-weniger,less,,adjv,1
-die Eiche,the oak tree,,noun,1
-die Eichel,the acorn,,noun,1
-übrig,remaining,,adjv,5
+doppelt,double,,adjv,0
+dreifach,triple,,adjv,0
+weniger,less,,adjv,0
+die Eiche,the oak tree,,noun,0
+die Eichel,the acorn,,noun,0
+übrig,remaining,,adjv,3
 nehmen,to take,,verb,1
-ich nahm,I took,,verb_fps,3
-manchmal,sometimes,,adjv,2
-bockig,stubborn,,adjv,3
+ich nahm,I took,,verb_fps,1
+manchmal,sometimes,,adjv,1
+bockig,stubborn,,adjv,1
 übrigens,besides,,adjv,3
-verwirren,to confuse,,verb,3
-gelegentlich,occasionally,,adjv,3
+verwirren,to confuse,,verb,2
+gelegentlich,occasionally,,adjv,2
 der Regenschirm,the umbrella,,noun,1
-verbinden,to join/connect,,verb,5
+verbinden,to join/connect,,verb,2
 der Bleistift,the pencil,,noun,1
 der Rahmen,the frame,,noun,5
-stolz,proud,,adjv,5
-das Haupt,the chief,,noun,5
-die Frau,the wife,,noun,5
-der Ehemann,the husband,,noun,5
+stolz,proud,,adjv,3
+das Haupt,the chief,,noun,3
+die Frau,the wife,,noun,3
+der Ehemann,the husband,,noun,3
 verheiraten,to marry,,verb,5
 das Dorf,the village,,noun,5
-diw Stadt,the town,,noun,5
-das Zelt,the tent,,noun,5
+die Stadt,the town,,noun,5
+das Zelt,the tent,,noun,2
 kräftig,strong,,adjv,5
+der Delphin,the dolphin,Animals,noun,1
+der Biber,the beaver,Animals,noun,3
+der Wellensittich,the budgie,Animals,noun,5
+der Orang-Utan,the orang-utan,Animals,noun,1
+der Hamster,the hamster,Animals,noun,1
+die Fledermaus,the bat,Animals,noun,3
+das Wildschwein,the boar,Animals,noun,3
+die Motte,the moth,Animals,noun,3
+der Wal,the whale,Animals,noun,1
+der Mensch,the person,Animals,noun,2
+laufen,to walk/run,,verb,1
+schwimmen,to swim,,verb,1
+fliegen,to fly,,verb,1
+das Fell,the fur,Animals,noun,2
+die Schuppen,the scales(fish),Animals,noun,5
+die Federn,the feathers,Animals,noun,2
+der Panzer,the shell/shield,Animals,noun,5
+das Inseckt,the insect,Animals,noun,1
+die Inseckten,the insects,Animals,noun,1
+die Reptilien,the reptiles,Animals,noun,1
+die Amphibien,the amphibians,Animals,noun,1
+die Säugetiere,the mammals,Animals,noun,5
+das Maul,the mouth (animal),Animals,noun,5
+die Krallen,the claws,Animals,noun,5
+die Pfoten,the paws,Animals,noun,3
+der Schwanz,the tail,Animals,noun,2
+das Euter,the udder,Animals,noun,3
+die Schnurrhaare,the whiskers,Animals,noun,3
+die Schnauze,the snout,Animals,noun,3
+der Schnabel,the beak,Animals,noun,1
+die Tatzen (das Bär),the paws (the bear),Animals,noun,5
+die Körperteile,the body parts,Animals,noun,2
+der Wald,the forest,Animals,noun,1
+die Pflanze,the plant,Animals,noun,1
+der Regenwald,the rain forest,Animals,noun,2
+die Luft,the air,,noun,1
+der Bauernhof,the farm,Animals,noun,2
+der Land,the land,,noun,1
+der Nordpol,the north pole,,noun,1
+der Südpol,the south pole,,noun,1
+der Erde,the earth,,noun,1
+die Wüste,the desert,,noun,3
+der Ozean,the ocean,,noun,1
+die Zunkuft,the future,,noun,5
+der Knirps,the little chap,,noun,5
+der Hirsch,the stag,Animals,noun,5
+der Unsinn,the nonsense,,noun,5
+der Kugel,the sphere,,noun,5
+der Würfel,the cube,,noun,5
+der Kegel,the cone,,noun,5
+der Zylinder,the cylinder,,noun,5
+die Pyramide,the pyramid,,noun,5
