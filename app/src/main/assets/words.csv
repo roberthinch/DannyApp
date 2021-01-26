@@ -1,367 +1,384 @@
-der Hund,the dog,Animals,noun,0
-die Katze,the cat,Animals,noun,0
-die Maus,the mouse,Animals,noun,0
-der Fisch,the fish,Animals,noun,0
-die Schlange,the snake,Animals,noun,0
-das Kaninchen,the rabbit,Animals,noun,0
-das Schwein,the pig,Animals,noun,0
-die Kuh,the cow,Animals,noun,0
-das Pferd,the horse,Animals,noun,0
-der Esel,the donkey,Animals,noun,0
-der Vogel,the bird,Animals,noun,0
-die Giraffe,the giraffe,Animals,noun,0
-der Schmetterling,the butterfly,Animals,noun,0
-der Käfer,the beetle,Animals,noun,0
-der Löwe,the lion,Animals,noun,0
-der Gepard,the cheetah,Animals,noun,0
-das Nilpferd,the hippo,Animals,noun,0
-das Huhn,the chicken,Animals,noun,0
-das Schaf,the sheep,Animals,noun,0
-das Zebra,the zebra,Animals,noun,0
-der Adler,the eagle,Animals,noun,0
-das Reh,the deer,Animals,noun,0
-das Tier,the animal,Animals,noun,0
-die Tiere,the animals,Animals,noun,0
-der Rücken,the back,Body,noun,0
-der Fontäne,the fontaine,Object,noun,0
-die Blase,the bubble,Object,noun,0
-die Kette,the chain,Object,noun,0
-der Teppich,the carpet,House,noun,0
-der Flügel,the wing,Animals,noun,0
-der Fuchs,the fox,Animals,noun,0
-der Verein,the club,Organisation,noun,0
-der Stoßzahn,the tusk,Animals,noun,0
-der Rüssel,the trunk,Animals,noun,0
-das Ferkel,the piglet,Animals,noun,0
-das Stück,the piece,Object,noun,0
-der Mannschaft,the team,Organisation,noun,0
-der Kegel,the skittle,Object,noun,0
-die Stimme,the voice,Body,noun,0
-das Gift,the poison,Object,noun,0
-das Seil,the rope,Object,noun,0
-die Schaufel,the shovel,Object,noun,0
-die Klinge,the blade,Object,noun,0
-der Spitzer,the peak,Outdoors,noun,0
-die Trommel,the drum,Music,noun,0
-die Geige,the violin,Music,noun,0
-das Klavier,the piano,Music,noun,0
-die Saite,the string,Object,noun,0
-die Baustelle,the building site,Outdoors,noun,0
-der Teig,the dough,Food,noun,0
-das Blech,the baking sheet,Food,noun,0
-der Senf,the mustard,Food,noun,0
-der Herd,the stove,Food,noun,0
-der Topf,the pot,Food,noun,0
-die Grube,the pit/hole,Outdoors,noun,0
-das Fischstäbchen,the fish finger,Food,noun,0
-das Gewitter,the storm,Outdoors,noun,0
-die Pflaume,the plum,Food,noun,0
-die Pappe,the cardboard,Object,noun,0
-das Hemd,the shirt,Clothes,noun,0
-die Wunde,the wound,Body,noun,0
-der Tannenbaum,the fir tree,Outdoors,noun,0
-der Ranzen,the school bag,Object,noun,0
-der Anzug,the suit (clothes),Clothes,noun,0
-der Edelstein,the gem,Object,noun,0
-der Taucher,the diver,Person,noun,0
-die Gestalt,the shape,Object,noun,0
-der Käfig,the cage,Animals,noun,0
-der Gegenstand,the object,Object,noun,0
-der Staubsauger,the vacuum cleaner,House,noun,0
-der Verkehr,the traffic,Outdoors,noun,0
-die Szene,the scene,Outdoors,noun,0
-der Müll,the rubbish,House,noun,0
-die Zange,the pliers,House,noun,0
-das Werkzeug,the tool,House,noun,0
-der Schuppen,the shed,House,noun,0
-der Umhang,the cape,Clothes,noun,0
-die Fabrik,the factory,Outdoors,noun,0
-die Säge,the saw,House,noun,0
-der Hammer,the hammer,House,noun,0
-ich bin,I am,,verb_fps,0
-ich war,I was,,verb_fps,0
-ich habe,I have,,verb_fps,0
-ich hatte,I had,,verb_fps,0
-ich gehe,I go,,verb_fps,0
-ich ging,I went,,verb_fps,0
-ich will,I want,,verb_fps,0
-ich weiß,I know,,verb_fps,0
-ich spreche,I speak,,verb_fps,0
-ich sage,I say,,verb_fps,0
-ich sagte,I said,,verb_fps,0
-ich lese,I read,,verb_fps,0
-ich sehe,I see,,verb_fps,0
-ich sah,I saw,,verb_fps,0
-ich denke,I think,,verb_fps,0
-denken,to think,,verb,0
-nachdenken,to think about,,verb,0
-ankommen,to arrive,,verb,0
-aufsehen,to look up,,verb,0
-ansehen,to look at,,verb,0
-bestätigen,to confirm,,verb,0
-aufspringen,to jump up,,verb,0
-aussehen,to look,,verb,0
-pusten,to blow/puff,,verb,0
-rechnen,to calculate,,verb,0
-folgen,to follow,,verb,0
-zeigen,to show,,verb,0
-graben,to dig,,verb,0
-strecken,to stretch,,verb,0
-knurren,to growl,,verb,0
-werfen,to throw,,verb,0
-bewegen,to move,,verb,0
-herstellen,to make/produce,,verb,0
-bekommen,to get,,verb,0
-kämpfen,to fight,,verb,0
-schlucken,to swallow,,verb,0
-entkommen,to escape,,verb,0
-bestellen,to order,,verb,0
-ziehen,to pull,,verb,0
-drücken,to push,,verb,0
-sollen,to be supposed to (should),,verb,0
-beobachten,to watch,,verb,0
-kümmern,to concern,,verb,0
-vorschlagen,to suggest,,verb,0
-verschwinden,to disappear,,verb,0
-meinen,to mean/say,,verb,0
-gehören,to belong,,verb,0
-kehren,to sweep,,verb,0
-treffen,to meet,,verb,0
-segeln,to sail,,verb,0
-blicken,to look,,verb,0
-sich erinnern,to remember,,verb,0
-reisen,to travel,,verb,0
-gefallen,to please,,verb,0
-reichen,to reach,,verb,0
-benutzen,to use,,verb,0
-stolpern,to stumble,,verb,0
-ich nehme,I take,,verb_fps,0
-heben,to lift,,verb,0
-sammeln,to collect,,verb,0
-beißen,to bite,,verb,0
-suchen,to search,,verb,0
-finden,to find,,verb,0
-träumen,to dream,,verb,0
-halten,to hold/keep,,verb,0
-seufzen,to sigh,,verb,0
-raten,to guess,,verb,0
-toll,great,,adjv,0
-abwesend,absent,,adjv,0
-tatsächlich,indeed,,adjv,0
-jetzt,now,,adjv,0
-nur,only,,adjv,0
-häufig,frequently,,adjv,0
-gesund,healthy,,adjv,0
-giftig,poisonous,,adjv,0
-immer,always,,adjv,0
-bequem,comfortably,,adjv,0
-leer,empty,,adjv,0
-voll,full,,adjv,0
-schlimm,bad,,adjv,0
-schlecht,bad,,adjv,0
-schrecklich,terrible,,adjv,0
-gesamt,total,,adjv,0
-ingesamt,altogether,,adjv,0
-schief,crooked,,adjv,0
-verschieden,different,,adjv,0
-unsichtbar,invisible,,adjv,0
-sichtbar,visible,,adjv,0
-ähnlich,similar,,adjv,0
-gleich,identical,,adjv,0
-bald,soon,,adjv,0
-verrückt,crazy,,adjv,0
-leise,quitely,,adjv,0
-genug,enough,,adjv,0
-laut,loud,,adjv,0
-groß,large,,adjv,0
-klein,small,,adjv,0
-schnell,fast,,adjv,0
-langsam,slow,,adjv,0
-unterrichten,to teach/instruct,,verb,0
-seltsam,strange,,adjv,0
-erleben,to experience,,verb,0
-die Sahne,the cream,Food,noun,0
-das Brett,the shelf/plank,House,noun,0
-reden,to talk/speak,,verb,0
-die Pause,the break/interval,,noun,0
-die Perle,the pearl,House,noun,0
-schnarchen,to snore,,verb,0
-der Traum,the dream,,noun,0
-der Zwerg,the dwarf,,noun,0
-die Apfelsine,the orange,Food,noun,0
-sich freuen,to be pleased with,,verb,0
-schwer,heavy/hard,,adjv,0
-licht,light,,adjv,0
-weich,soft,,adjv,0
-hart,hard/firm,,adjv,0
-ich traf,I met,,verb_fps,0
-ärgern,to annoy,,verb,0
-sich ärgern,to get annoyed,,verb,0
-reimen,to rhyme,,verb,0
-schnauben,to snort,,verb,0
-der Stecker,the plug,,noun,0
-der Strom,the current/stream,,noun,0
-regelmäßig,regular/frequent,,adjv,0
-spazieren,to walk/stroll,,verb,0
-spazieren gehen,to go for a walk,,verb,0
-ich gehe spazieren,I go for a walk,,verb_fps,0
-der Bergsteiger,the climber/mountaineer,,noun,0
-dürfen,to be allowed to,,verb,0
-ich darf,I may,,verb_fps,0
-vielleicht,perhaps,,adjv,0
-schlagen,to hit/strike,,verb,0
-die Richtung,the direction,,noun,0
-nirgends,nowhere,,adjv,0
-weiter,further/continue,,adjv,0
-der Kreis,the circle,Shapes,noun,0
-das Oval,the oval,Shapes,noun,0
-das Dreieck,the triangle,Shapes,noun,0
-das Quadrat,the square,Shapes,noun,0
-das Rechteck,the rectangle,Shapes,noun,0
-der Halbkreis,the semicircle,Shapes,noun,0
-geometrische,geometry/form,Shapes,adjv,0
-die Ecke,the corner,Shapes,noun,0
-gerade,straight,Shapes,adjv,0
-gebogen,curved,Shapes,adjv,0
-die Gardine,the curtain,Home,noun,0
-das Eichhörnchen,the squirrel,Animals,noun,0
-das Lineal,the ruler,Shapes,noun,0
-einsperren,to lock up,,verb,0
-retten,to rescue,,verb,0
-der Fluss,the river,,noun,0
-der Buchstabe,the letter (alphabet),,noun,0
-die Null,the zero,,noun,0
-gefährlich,dangerous,,adjv,0
-ich wurde,I became,,verb_fps,0
-ich würde,I would,,verb_fps,0
-der Schlüssel,the key,,noun,0
-senken,to lower,,verb,0
-reiten,to ride,,verb,0
-bange,scared,,adjv,0
-der Wachmann,the security guard,,noun,0
-doppelt,double,,adjv,0
-dreifach,triple,,adjv,0
-weniger,less,,adjv,0
-die Eiche,the oak tree,,noun,0
-die Eichel,the acorn,,noun,0
-übrig,remaining,,adjv,0
-nehmen,to take,,verb,0
-ich nahm,I took,,verb_fps,0
-manchmal,sometimes,,adjv,0
-bockig,stubborn,,adjv,0
-übrigens,besides,,adjv,0
-verwirren,to confuse,,verb,0
-gelegentlich,occasionally,,adjv,0
-der Regenschirm,the umbrella,,noun,0
-verbinden,to join/connect,,verb,0
-der Bleistift,the pencil,,noun,0
-der Rahmen,the frame,,noun,0
-stolz,proud,,adjv,0
-das Haupt,the chief,,noun,0
-die Frau,the wife,,noun,0
-der Ehemann,the husband,,noun,0
-verheiraten,to marry,,verb,0
-das Dorf,the village,,noun,0
-die Stadt,the town,,noun,0
-das Zelt,the tent,,noun,0
-kräftig,strong,,adjv,0
-der Delphin,the dolphin,Animals,noun,0
-der Biber,the beaver,Animals,noun,0
-der Wellensittich,the budgie,Animals,noun,1
-der Orang-Utan,the orang-utan,Animals,noun,0
-der Hamster,the hamster,Animals,noun,0
-die Fledermaus,the bat,Animals,noun,0
-das Wildschwein,the boar,Animals,noun,0
-die Motte,the moth,Animals,noun,0
-der Wal,the whale,Animals,noun,0
-der Mensch,the person,Animals,noun,0
-laufen,to walk/run,,verb,0
-schwimmen,to swim,,verb,0
-fliegen,to fly,,verb,0
-das Fell,the fur,Animals,noun,0
-die Schuppen,the scales(fish),Animals,noun,1
-die Federn,the feathers,Animals,noun,0
-der Panzer,the shell/shield,Animals,noun,1
-das Inseckt,the insect,Animals,noun,0
-die Inseckten,the insects,Animals,noun,0
-die Reptilien,the reptiles,Animals,noun,0
-die Amphibien,the amphibians,Animals,noun,0
-die Säugetiere,the mammals,Animals,noun,1
-das Maul,the mouth (animal),Animals,noun,1
-die Krallen,the claws,Animals,noun,3
-die Pfoten,the paws,Animals,noun,3
-der Schwanz,the tail,Animals,noun,0
-das Euter,the udder,Animals,noun,0
-die Schnurrhaare,the whiskers,Animals,noun,1
-die Schnauze,the snout,Animals,noun,1
-der Schnabel,the beak,Animals,noun,1
-die Tatzen,the paws (big),Animals,noun,1
-die Körperteile,the body parts,Animals,noun,0
-der Wald,the forest,Animals,noun,0
-die Pflanze,the plant,Animals,noun,0
-der Regenwald,the rain forest,Animals,noun,0
-die Luft,the air,,noun,0
-der Bauernhof,the farm,Animals,noun,0
-der Land,the land,,noun,0
-der Nordpol,the north pole,,noun,0
-der Südpol,the south pole,,noun,0
-der Erde,the earth,,noun,0
-die Wüste,the desert,,noun,0
-der Ozean,the ocean,,noun,0
-die Zunkuft,the future,,noun,0
-der Knirps,the little chap,,noun,1
-der Hirsch,the stag,Animals,noun,0
-unsinn,nonsense,,adjv,1
-der Kugel,the sphere,,noun,1
-der Würfel,the cube,,noun,1
-der Kegel,the cone,,noun,1
-der Zylinder,the cylinder,,noun,0
-die Pyramide,the pyramid,,noun,0
-der Metzgerei,the butcher's shop,,noun,1
-der Schrottplatz,the scrap yard,,noun,1
-der Tau,the dew,,noun,3
-der Zopf,the pony-tail/plait,,noun,1
-flechten,to plait,,verb,1
-die Erwachsene,the adults,,noun,0
-pädagogisch,educational,,adjv,3
-falls,in case,,conj,3
-und,and,,conj,0
-oder,or,,conj,0
-aber,but,,conj,0
-als,when/as,,conj,1
-wenn,when/if,,conj,1
-denn,because/for,,conj,1
-weil,because,,conj,0
-ob,if/whether,,conj,1
-so,so,,conj,0
-sobald,whenever,,conj,1
-seit,since,,conj,1
-während,whilst,,conj,1
-nachdem,after/once,,conj,1
-bis,until,,conj,1
-kennen,to know,,verb,1
-dichten,to compose/write,,verb,1
-möglich,possible,,adjv,1
-möglicherweise,possibly,,adjv,1
-der Malkasten,the paintbox,,noun,0
-der Stiel,the stalk,,noun,1
-stachelig,spikey/prickley,,adjv,1
-der Witz,the joke,,noun,1
-jagen,to hunt,,verb,3
-heizen,to heat,,verb,1
-dringend,urgent,,adjv,1
-gucken,to watch/look,,verb,0
-langweillig,boring,,adjv,0
-interessant,interesting,,adjv,0
-das Dach,the roof,,noun,3
-das Geländer,the railing,,noun,3
-das Fenster,the window,,noun,1
-die Treppe,the stairs,,noun,1
-verwenden,to use,,verb,5
-der Zauberspruch,the magic spell,,noun,3
-leider,unfortunately,,adjv,5
-komisch,funny,,adjv,5
-der Schornstein,the chimney,,noun,5
-der Strahl,the beam/ray,,noun,5
-zauberhaft,magical/enchanting,,adjv,3
-beschreiben,to describe,,verb,3
+der Hund,the dog,Animals,noun,10,der_hund
+die Katze,the cat,Animals,noun,10,die_katze
+die Maus,the mouse,Animals,noun,10,die_maus
+der Fisch,the fish,Animals,noun,0,
+die Schlange,the snake,Animals,noun,0,
+das Kaninchen,the rabbit,Animals,noun,0,
+das Schwein,the pig,Animals,noun,0,
+die Kuh,the cow,Animals,noun,0,
+das Pferd,the horse,Animals,noun,0,
+der Esel,the donkey,Animals,noun,0,
+der Vogel,the bird,Animals,noun,0,
+die Giraffe,the giraffe,Animals,noun,0,
+der Schmetterling,the butterfly,Animals,noun,0,
+der Käfer,the beetle,Animals,noun,0,
+der Löwe,the lion,Animals,noun,0,
+der Gepard,the cheetah,Animals,noun,0,
+das Nilpferd,the hippo,Animals,noun,0,
+das Huhn,the chicken,Animals,noun,0,
+das Schaf,the sheep,Animals,noun,0,
+das Zebra,the zebra,Animals,noun,0,
+der Adler,the eagle,Animals,noun,0,
+das Reh,the deer,Animals,noun,0,
+das Tier,the animal,Animals,noun,0,
+die Tiere,the animals,Animals,noun,0,
+der Rücken,the back,Body,noun,0,
+der Fontäne,the fontaine,Object,noun,0,
+die Blase,the bubble,Object,noun,0,
+die Kette,the chain,Object,noun,0,
+der Teppich,the carpet,House,noun,0,
+der Flügel,the wing,Animals,noun,0,
+der Fuchs,the fox,Animals,noun,0,
+der Verein,the club,Organisation,noun,0,
+der Stoßzahn,the tusk,Animals,noun,0,
+der Rüssel,the trunk,Animals,noun,0,
+das Ferkel,the piglet,Animals,noun,0,
+das Stück,the piece,Object,noun,0,
+der Mannschaft,the team,Organisation,noun,0,
+der Kegel,the skittle,Object,noun,0,
+die Stimme,the voice,Body,noun,0,
+das Gift,the poison,Object,noun,0,
+das Seil,the rope,Object,noun,0,
+die Schaufel,the shovel,Object,noun,0,
+die Klinge,the blade,Object,noun,0,
+der Spitzer,the peak,Outdoors,noun,0,
+die Trommel,the drum,Music,noun,0,
+die Geige,the violin,Music,noun,0,
+das Klavier,the piano,Music,noun,0,
+die Saite,the string,Object,noun,0,
+die Baustelle,the building site,Outdoors,noun,0,
+der Teig,the dough,Food,noun,0,
+das Blech,the baking sheet,Food,noun,0,
+der Senf,the mustard,Food,noun,0,
+der Herd,the stove,Food,noun,0,
+der Topf,the pot,Food,noun,0,
+die Grube,the pit/hole,Outdoors,noun,0,
+das Fischstäbchen,the fish finger,Food,noun,0,
+das Gewitter,the storm,Outdoors,noun,0,
+die Pflaume,the plum,Food,noun,0,
+die Pappe,the cardboard,Object,noun,0,
+das Hemd,the shirt,Clothes,noun,0,
+die Wunde,the wound,Body,noun,0,
+der Tannenbaum,the fir tree,Outdoors,noun,0,
+der Ranzen,the school bag,Object,noun,0,
+der Anzug,the suit (clothes),Clothes,noun,0,
+der Edelstein,the gem,Object,noun,0,
+der Taucher,the diver,Person,noun,0,
+die Gestalt,the shape,Object,noun,0,
+der Käfig,the cage,Animals,noun,0,
+der Gegenstand,the object,Object,noun,1,
+der Staubsauger,the vacuum cleaner,House,noun,0,
+der Verkehr,the traffic,Outdoors,noun,0,
+die Szene,the scene,Outdoors,noun,0,
+der Müll,the rubbish,House,noun,0,
+die Zange,the pliers,House,noun,0,
+das Werkzeug,the tool,House,noun,0,
+der Schuppen,the shed,House,noun,0,
+der Umhang,the cape,Clothes,noun,0,
+die Fabrik,the factory,Outdoors,noun,0,
+die Säge,the saw,House,noun,0,
+der Hammer,the hammer,House,noun,0,
+ich bin,I am,,verb_fps,0,
+ich war,I was,,verb_fps,0,
+ich habe,I have,,verb_fps,0,
+ich hatte,I had,,verb_fps,0,
+ich gehe,I go,,verb_fps,0,
+ich ging,I went,,verb_fps,0,
+ich will,I want,,verb_fps,0,
+ich weiß,I know,,verb_fps,0,
+ich spreche,I speak,,verb_fps,0,
+ich sage,I say,,verb_fps,0,
+ich sagte,I said,,verb_fps,0,
+ich lese,I read,,verb_fps,0,
+ich sehe,I see,,verb_fps,0,
+ich sah,I saw,,verb_fps,0,
+ich denke,I think,,verb_fps,0,
+denken,to think,,verb,0,
+nachdenken,to think about,,verb,0,
+ankommen,to arrive,,verb,0,
+aufsehen,to look up,,verb,0,
+ansehen,to look at,,verb,0,
+bestätigen,to confirm,,verb,0,
+aufspringen,to jump up,,verb,0,
+aussehen,to look,,verb,0,
+pusten,to blow/puff,,verb,0,
+rechnen,to calculate,,verb,0,
+folgen,to follow,,verb,0,
+zeigen,to show,,verb,0,
+graben,to dig,,verb,0,
+strecken,to stretch,,verb,0,
+knurren,to growl,,verb,0,
+werfen,to throw,,verb,0,
+bewegen,to move,,verb,0,
+herstellen,to make/produce,,verb,0,
+bekommen,to get,,verb,0,
+kämpfen,to fight,,verb,0,
+schlucken,to swallow,,verb,0,
+entkommen,to escape,,verb,0,
+bestellen,to order,,verb,0,
+ziehen,to pull,,verb,0,
+drücken,to push,,verb,0,
+sollen,to be supposed to (should),,verb,0,
+beobachten,to watch,,verb,0,
+kümmern,to concern,,verb,0,
+vorschlagen,to suggest,,verb,0,
+verschwinden,to disappear,,verb,0,
+meinen,to mean/say,,verb,0,
+gehören,to belong,,verb,0,
+kehren,to sweep,,verb,0,
+treffen,to meet,,verb,0,
+segeln,to sail,,verb,0,
+blicken,to look,,verb,0,
+sich erinnern,to remember,,verb,0,
+reisen,to travel,,verb,0,
+gefallen,to please,,verb,0,
+reichen,to reach,,verb,0,
+benutzen,to use,,verb,0,
+stolpern,to stumble,,verb,0,
+ich nehme,I take,,verb_fps,0,
+heben,to lift,,verb,0,
+sammeln,to collect,,verb,0,
+beißen,to bite,,verb,0,
+suchen,to search,,verb,0,
+finden,to find,,verb,0,
+träumen,to dream,,verb,0,
+halten,to hold/keep,,verb,0,
+seufzen,to sigh,,verb,0,
+raten,to guess,,verb,0,
+toll,great,,adjv,0,
+abwesend,absent,,adjv,0,
+tatsächlich,indeed,,adjv,0,
+jetzt,now,,adjv,0,
+nur,only,,adjv,0,
+häufig,frequently,,adjv,0,
+gesund,healthy,,adjv,0,
+giftig,poisonous,,adjv,0,
+immer,always,,adjv,0,
+bequem,comfortably,,adjv,0,
+leer,empty,,adjv,0,
+voll,full,,adjv,0,
+schlimm,bad,,adjv,0,
+schlecht,bad,,adjv,0,
+schrecklich,terrible,,adjv,0,
+gesamt,total,,adjv,0,
+ingesamt,altogether,,adjv,0,
+schief,crooked,,adjv,0,
+verschieden,different,,adjv,0,
+unsichtbar,invisible,,adjv,0,
+sichtbar,visible,,adjv,0,
+ähnlich,similar,,adjv,0,
+gleich,identical,,adjv,0,
+bald,soon,,adjv,0,
+verrückt,crazy,,adjv,0,
+leise,quitely,,adjv,0,
+genug,enough,,adjv,0,
+laut,loud,,adjv,0,
+groß,large,,adjv,0,
+klein,small,,adjv,0,
+schnell,fast,,adjv,0,
+langsam,slow,,adjv,0,
+unterrichten,to teach/instruct,,verb,0,
+seltsam,strange,,adjv,0,
+erleben,to experience,,verb,0,
+die Sahne,the cream,Food,noun,0,
+das Brett,the shelf/plank,House,noun,0,
+reden,to talk/speak,,verb,0,
+die Pause,the break/interval,,noun,0,
+die Perle,the pearl,House,noun,0,
+schnarchen,to snore,,verb,0,
+der Traum,the dream,,noun,0,
+der Zwerg,the dwarf,,noun,0,
+die Apfelsine,the orange,Food,noun,0,
+sich freuen,to be pleased with,,verb,0,
+schwer,heavy/hard,,adjv,0,
+licht,light,,adjv,0,
+weich,soft,,adjv,0,
+hart,hard/firm,,adjv,0,
+ich traf,I met,,verb_fps,0,
+ärgern,to annoy,,verb,0,
+sich ärgern,to get annoyed,,verb,0,
+reimen,to rhyme,,verb,0,
+schnauben,to snort,,verb,0,
+der Stecker,the plug,,noun,0,
+der Strom,the current/stream,,noun,0,
+regelmäßig,regular/frequent,,adjv,0,
+spazieren,to walk/stroll,,verb,0,
+spazieren gehen,to go for a walk,,verb,0,
+ich gehe spazieren,I go for a walk,,verb_fps,0,
+der Bergsteiger,the climber/mountaineer,,noun,0,
+dürfen,to be allowed to,,verb,0,
+ich darf,I may,,verb_fps,0,
+vielleicht,perhaps,,adjv,0,
+schlagen,to hit/strike,,verb,0,
+die Richtung,the direction,,noun,0,
+nirgends,nowhere,,adjv,0,
+weiter,further/continue,,adjv,0,
+der Kreis,the circle,Shapes,noun,0,
+das Oval,the oval,Shapes,noun,0,
+das Dreieck,the triangle,Shapes,noun,0,
+das Quadrat,the square,Shapes,noun,0,
+das Rechteck,the rectangle,Shapes,noun,0,
+der Halbkreis,the semicircle,Shapes,noun,0,
+geometrische,geometry/form,Shapes,adjv,0,
+die Ecke,the corner,Shapes,noun,0,
+gerade,straight,Shapes,adjv,0,
+gebogen,curved,Shapes,adjv,0,
+die Gardine,the curtain,Home,noun,0,
+das Eichhörnchen,the squirrel,Animals,noun,0,
+das Lineal,the ruler,Shapes,noun,0,
+einsperren,to lock up,,verb,0,
+retten,to rescue,,verb,0,
+der Fluss,the river,,noun,0,
+der Buchstabe,the letter (alphabet),,noun,0,
+die Null,the zero,,noun,0,
+gefährlich,dangerous,,adjv,0,
+ich wurde,I became,,verb_fps,0,
+ich würde,I would,,verb_fps,0,
+der Schlüssel,the key,,noun,0,
+senken,to lower,,verb,0,
+reiten,to ride,,verb,0,
+bange,scared,,adjv,0,
+der Wachmann,the security guard,,noun,0,
+doppelt,double,,adjv,0,
+dreifach,triple,,adjv,0,
+weniger,less,,adjv,0,
+die Eiche,the oak tree,,noun,0,
+die Eichel,the acorn,,noun,0,
+übrig,remaining,,adjv,0,
+nehmen,to take,,verb,0,
+ich nahm,I took,,verb_fps,0,
+manchmal,sometimes,,adjv,0,
+bockig,stubborn,,adjv,0,
+übrigens,besides,,adjv,0,
+verwirren,to confuse,,verb,0,
+gelegentlich,occasionally,,adjv,0,
+der Regenschirm,the umbrella,,noun,0,
+verbinden,to join/connect,,verb,0,
+der Bleistift,the pencil,,noun,0,
+der Rahmen,the frame,,noun,0,
+stolz,proud,,adjv,0,
+das Haupt,the chief,,noun,0,
+die Frau,the wife,,noun,0,
+der Ehemann,the husband,,noun,0,
+verheiraten,to marry,,verb,0,
+das Dorf,the village,,noun,0,
+die Stadt,the town,,noun,0,
+das Zelt,the tent,,noun,0,
+kräftig,strong,,adjv,0,
+der Delphin,the dolphin,Animals,noun,0,
+der Biber,the beaver,Animals,noun,0,
+der Wellensittich,the budgie,Animals,noun,1,
+der Orang-Utan,the orang-utan,Animals,noun,0,
+der Hamster,the hamster,Animals,noun,0,
+die Fledermaus,the bat,Animals,noun,0,
+das Wildschwein,the boar,Animals,noun,0,
+die Motte,the moth,Animals,noun,0,
+der Wal,the whale,Animals,noun,0,
+der Mensch,the person,Animals,noun,0,
+laufen,to walk/run,,verb,0,
+schwimmen,to swim,,verb,0,
+fliegen,to fly,,verb,0,
+das Fell,the fur,Animals,noun,0,
+die Schuppen,the scales(fish),Animals,noun,1,
+die Federn,the feathers,Animals,noun,0,
+der Panzer,the shell/shield,Animals,noun,1,
+das Inseckt,the insect,Animals,noun,0,
+die Inseckten,the insects,Animals,noun,0,
+die Reptilien,the reptiles,Animals,noun,0,
+die Amphibien,the amphibians,Animals,noun,0,
+die Säugetiere,the mammals,Animals,noun,1,
+das Maul,the mouth (animal),Animals,noun,1,
+die Krallen,the claws,Animals,noun,1,
+die Pfoten,the paws,Animals,noun,1,
+der Schwanz,the tail,Animals,noun,0,
+das Euter,the udder,Animals,noun,0,
+die Schnurrhaare,the whiskers,Animals,noun,1,
+die Schnauze,the snout,Animals,noun,1,
+der Schnabel,the beak,Animals,noun,0,
+die Tatzen,the paws (big),Animals,noun,1,
+die Körperteile,the body parts,Animals,noun,0,
+der Wald,the forest,Animals,noun,0,
+die Pflanze,the plant,Animals,noun,0,
+der Regenwald,the rain forest,Animals,noun,0,
+die Luft,the air,,noun,0,
+der Bauernhof,the farm,Animals,noun,0,
+der Land,the land,,noun,0,
+der Nordpol,the north pole,,noun,0,
+der Südpol,the south pole,,noun,0,
+der Erde,the earth,,noun,0,
+die Wüste,the desert,,noun,0,
+der Ozean,the ocean,,noun,0,
+die Zunkuft,the future,,noun,0,
+der Knirps,the little chap,,noun,0,
+der Hirsch,the stag,Animals,noun,0,
+unsinn,nonsense,,adjv,0,
+der Kugel,the sphere,,noun,1,
+der Würfel,the cube,,noun,1,
+der Kegel,the cone,,noun,1,
+der Zylinder,the cylinder,,noun,0,
+die Pyramide,the pyramid,,noun,0,
+der Metzgerei,the butcher's shop,,noun,0,
+der Schrottplatz,the scrap yard,,noun,0,
+der Tau,the dew,,noun,1,
+der Zopf,the pony-tail/plait,,noun,0,
+flechten,to plait,,verb,0,
+die Erwachsene,the adults,,noun,0,
+pädagogisch,educational,,adjv,0,
+falls,in case,,conj,3,
+und,and,,conj,0,
+oder,or,,conj,0,
+aber,but,,conj,0,
+als,when/as,,conj,1,
+wenn,when/if,,conj,1,
+denn,because/for,,conj,1,
+weil,because,,conj,0,
+ob,if/whether,,conj,1,
+so,so,,conj,0,
+sobald,whenever,,conj,1,
+seit,since,,conj,1,
+während,whilst,,conj,1,
+nachdem,after/once,,conj,1,
+bis,until,,conj,1,
+kennen,to know,,verb,1,
+dichten,to compose/write,,verb,1,
+möglich,possible,,adjv,1,
+möglicherweise,possibly,,adjv,1,
+der Malkasten,the paintbox,,noun,0,
+der Stiel,the stalk,,noun,1,
+stachelig,spikey/prickley,,adjv,1,
+der Witz,the joke,,noun,0,
+jagen,to hunt,,verb,0,
+heizen,to heat,,verb,1,
+dringend,urgent,,adjv,1,
+gucken,to watch/look,,verb,0,
+langweillig,boring,,adjv,0,
+interessant,interesting,,adjv,0,
+das Dach,the roof,,noun,0,
+das Geländer,the railing,,noun,1,
+das Fenster,the window,,noun,0,
+die Treppe,the stairs,,noun,0,
+verwenden,to use,,verb,1,
+der Zauberspruch,the magic spell,,noun,0,
+leider,unfortunately,,adjv,1,
+komisch,funny,,adjv,1,
+der Schornstein,the chimney,,noun,1,
+der Strahl,the beam/ray,,noun,1,
+zauberhaft,magical/enchanting,,adjv,1,
+beschreiben,to describe,,verb,1,
+schütten,to pour,,verb,2,
+schütteln,to shake,,verb,2,
+der Nachwuchs,the offspring (children),,noun,2,
+der Torwart,the goalkeeper,,noun,1,
+der Elfmeter,the penalty (football),,noun,1,
+das Endspiel,the final (sport),,noun,1,
+die Plege,the care/nursing,,noun,5,
+der Stall,the stable/hutch,Animals,noun,5,
+wirken,to seem,,verb,3,
+zwischen,between,,adjv,2,
+der Knocken,the bone,Animals,noun,1,
+die Flöte,the flute,,noun,1,
+prallen,to bounce,,verb,5,
+jubeln,to celebrate,,verb,3,
+die Latte,the goalposts,,noun,3,
+der Tierarzt,the vet,Animals,noun,3,
+schließlich,finally/eventually,,adjv,3,

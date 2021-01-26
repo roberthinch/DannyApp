@@ -3,6 +3,8 @@ package com.example.myapplication;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -21,6 +23,7 @@ public class MultipleChoice extends AppCompatActivity {
     private String question;
     private String correctAnswer;
     private String[] answers;
+    private String soundFileShort;
     private int nAnswers = 6;
     private int[] buttonIds;
     private int correctId;
@@ -55,6 +58,7 @@ public class MultipleChoice extends AppCompatActivity {
             question = record.language2;
             correctAnswer = record.language1;
         }
+        soundFileShort = record.soundFileShort;
 
         answers = new String[nAnswers];
         for( int i = 0; i < nAnswers; i++ ) {
@@ -131,6 +135,22 @@ public class MultipleChoice extends AppCompatActivity {
         // disable the next button
         button = findViewById( R.id.next );
         button.setEnabled( false );
+
+        if( language == 0 )
+            say_word();
+    }
+
+    private void say_word()
+    {
+        if( ( soundFileShort.length() > 0 ) ) {
+            String uriPath = "android.resource://" + getPackageName() + "/raw/" + soundFileShort;
+            Uri uri = Uri.parse(uriPath);
+
+            if( uri != null ) {
+                MediaPlayer mp = MediaPlayer.create(getApplicationContext(), uri );
+                mp.start();
+            }
+        }
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -143,6 +163,9 @@ public class MultipleChoice extends AppCompatActivity {
         button.setEnabled(false);
         button.setBackgroundTintList( myColorStateList );
         MainActivity.WORD_STORE.correctLearnWord(question,language);
+
+        if( language == 1 )
+            say_word();
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -156,6 +179,9 @@ public class MultipleChoice extends AppCompatActivity {
         button.setBackgroundTintList( myColorStateList );
 
         MainActivity.WORD_STORE.addLearnWord(question,language);
+
+        if( language == 1 )
+            say_word();
     }
 
     private void set_other_answer(Button button)

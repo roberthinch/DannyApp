@@ -24,6 +24,7 @@ public class WordStore {
     private String[] language2;
     private String[] category;
     private String[] type;
+    private String[] soundFileShort;
     private HashMap<String,List<Integer>> categoryMap;
     private HashMap<String,Integer> language1Map;
     private HashMap<String,Integer> language2Map;
@@ -41,7 +42,7 @@ public class WordStore {
     }
 
     public WordRecord getWordRecord( int idx ) {
-        WordRecord record = new WordRecord( language1[idx], language2[idx], category[idx], type[idx]);
+        WordRecord record = new WordRecord( language1[idx], language2[idx], category[idx], type[idx], soundFileShort[idx]);
         return record;
     }
     public void loadData() {
@@ -61,6 +62,7 @@ public class WordStore {
             language1 = new String[nRecords];
             language2 = new String[nRecords];
             type      = new String[nRecords];
+            soundFileShort = new String[nRecords];
             category  = new String[nRecords];
             learnList = new Integer[nRecords];
             learnMap  = new HashMap<Integer,Integer>();
@@ -74,6 +76,7 @@ public class WordStore {
                 language2[i] = line[1];
                 type[i]      = line[2];
                 category[i]  = line[3];
+                soundFileShort[i] = line[5];
 
                 try {
                     ldx = Integer.parseInt(line[4]);
