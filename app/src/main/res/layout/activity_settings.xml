@@ -71,6 +71,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subtract_game_mode" />
 
+    <Switch
+        android:id="@+id/divide_game_mode"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:singleLine="false"
+        android:text="Divide Game Mode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multiply_game_mode" />
+
+
     <TextView
         android:id="@+id/maxAddNumberText"
         android:layout_width="140dp"
@@ -83,7 +100,7 @@
         app:layout_constraintEnd_toStartOf="@+id/maxAddNumberBar"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/multiply_game_mode" />
+        app:layout_constraintTop_toBottomOf="@+id/divide_game_mode" />
 
     <SeekBar
         android:id="@+id/maxAddNumberBar"
@@ -93,7 +110,7 @@
         app:layout_constraintEnd_toStartOf="@+id/maxAddNumberValue"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/maxAddNumberText"
-        app:layout_constraintTop_toBottomOf="@+id/multiply_game_mode"/>
+        app:layout_constraintTop_toBottomOf="@+id/divide_game_mode"/>
 
     <TextView
         android:id="@+id/maxAddNumberValue"
@@ -106,7 +123,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/maxAddNumberBar"
-        app:layout_constraintTop_toBottomOf="@+id/multiply_game_mode"/>
+        app:layout_constraintTop_toBottomOf="@+id/divide_game_mode"/>
 
     <TextView
         android:id="@+id/maxSubtractNumberText"
@@ -181,6 +198,43 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/maxMultiplyNumberBar"
         app:layout_constraintTop_toBottomOf="@+id/maxSubtractNumberValue"/>
+
+    <TextView
+        android:id="@+id/maxDivideNumberText"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="Max in Mutiply Game"
+        app:layout_constraintEnd_toStartOf="@+id/maxDivideNumberBar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maxMultiplyNumberValue" />
+
+    <SeekBar
+        android:id="@+id/maxDivideNumberBar"
+        android:layout_width="150dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/maxDivideNumberValue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/maxDivideNumberText"
+        app:layout_constraintTop_toBottomOf="@+id/maxMultiplyNumberValue" />
+
+    <TextView
+        android:id="@+id/maxDivideNumberValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/maxDivideNumberBar"
+        app:layout_constraintTop_toBottomOf="@+id/maxMultiplyNumberValue"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

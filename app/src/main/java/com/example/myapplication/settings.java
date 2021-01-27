@@ -24,6 +24,8 @@ public class settings extends AppCompatActivity {
         int maxSub  = 49;
         int minMult = 4;
         int maxMult = 9;
+        int minDiv  = 4;
+        int maxDiv  = 10;
 
         // set up sound effects switch
         Switch sw = (Switch) findViewById(R.id.sound_effects);
@@ -72,6 +74,18 @@ public class settings extends AppCompatActivity {
                     MainActivity.MUTIPLY_GAME_MODE = true;
                 } else {
                     MainActivity.MUTIPLY_GAME_MODE = false;
+                }
+            }
+        });
+        // set up add game mode
+        sw = (Switch) findViewById(R.id.divide_game_mode);
+        sw.setChecked(MainActivity.DIVIDE_GAME_MODE);
+        sw.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    MainActivity.DIVIDE_GAME_MODE = true;
+                } else {
+                    MainActivity.DIVIDE_GAME_MODE = false;
                 }
             }
         });
@@ -133,6 +147,26 @@ public class settings extends AppCompatActivity {
             public void onProgressChanged(SeekBar arg0, int arg1, boolean arg2) {
                 maxMultView.setText( String.valueOf(arg1+minMult) );
                 MainActivity.MAX_NUMBER_MUTIPLIY_GAME = arg1+minMult;
+            }
+        });
+
+        // set up divide slider
+        TextView maxDivView = (TextView) findViewById(R.id.maxDivideNumberValue);
+        maxDivView.setText( String.valueOf( MainActivity.MAX_NUMBER_DIVIDE_GAME ));
+        SeekBar divBar = (SeekBar)findViewById(R.id.maxDivideNumberBar);
+        divBar.setMax(maxDiv-minDiv);
+        divBar.setProgress(MainActivity.MAX_NUMBER_DIVIDE_GAME-minDiv);
+        divBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onStopTrackingTouch(SeekBar arg0) {
+            }
+            @Override
+            public void onStartTrackingTouch(SeekBar arg0) {
+            }
+            @Override
+            public void onProgressChanged(SeekBar arg0, int arg1, boolean arg2) {
+                maxDivView.setText( String.valueOf(arg1+minDiv ) );
+                MainActivity.MAX_NUMBER_DIVIDE_GAME = arg1+minDiv;
             }
         });
 

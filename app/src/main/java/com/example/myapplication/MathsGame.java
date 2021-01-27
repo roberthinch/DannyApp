@@ -79,6 +79,11 @@ public class MathsGame extends AppCompatActivity {
             number2 = rnd.nextInt(maxNumber-1)+2;
             question = String.valueOf(number1) + " x " + String.valueOf(number2) + " = ";
             correctAnswer = number1 * number2;
+        } else if( operatorType == 3) {
+            number2 = rnd.nextInt(maxNumber-1)+2;
+            correctAnswer = rnd.nextInt(maxNumber-1)+2;
+            number1= correctAnswer * number2;
+            question = String.valueOf(number1) + " ÷ " + String.valueOf(number2) + " = ";
         }
 
         setup_screen();
