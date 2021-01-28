@@ -1,13 +1,13 @@
-der Hund,the dog,Animals,noun,1,der_hund
-die Katze,the cat,Animals,noun,1,die_katze
-die Maus,the mouse,Animals,noun,1,die_maus
-der Fisch,the fish,Animals,noun,1,der_fisch
-die Schlange,the snake,Animals,noun,1,die_schlange
-das Kaninchen,the rabbit,Animals,noun,11,das_kaninchen
-das Schwein,the pig,Animals,noun,1,das_schwein
-die Kuh,the cow,Animals,noun,1,die_kuh
-das Pferd,the horse,Animals,noun,1,das_pferd
-der Esel,the donkey,Animals,noun,1,der_esel
+der Hund,the dog,Animals,noun,0,der_hund
+die Katze,the cat,Animals,noun,0,die_katze
+die Maus,the mouse,Animals,noun,0,die_maus
+der Fisch,the fish,Animals,noun,0,der_fisch
+die Schlange,the snake,Animals,noun,0,die_schlange
+das Kaninchen,the rabbit,Animals,noun,0,das_kaninchen
+das Schwein,the pig,Animals,noun,0,das_schwein
+die Kuh,the cow,Animals,noun,0,die_kuh
+das Pferd,the horse,Animals,noun,0,das_pferd
+der Esel,the donkey,Animals,noun,0,der_esel
 der Vogel,the bird,Animals,noun,0,
 die Giraffe,the giraffe,Animals,noun,0,
 der Schmetterling,the butterfly,Animals,noun,0,
@@ -66,7 +66,7 @@ der Edelstein,the gem,Object,noun,0,
 der Taucher,the diver,Person,noun,0,
 die Gestalt,the shape,Object,noun,0,
 der Käfig,the cage,Animals,noun,0,
-der Gegenstand,the object,Object,noun,1,
+der Gegenstand,the object,Object,noun,0,
 der Staubsauger,the vacuum cleaner,House,noun,0,
 der Verkehr,the traffic,Outdoors,noun,0,
 die Szene,the scene,Outdoors,noun,0,
@@ -267,7 +267,7 @@ das Zelt,the tent,,noun,0,
 kräftig,strong,,adjv,0,
 der Delphin,the dolphin,Animals,noun,0,
 der Biber,the beaver,Animals,noun,0,
-der Wellensittich,the budgie,Animals,noun,1,
+der Wellensittich,the budgie,Animals,noun,0,
 der Orang-Utan,the orang-utan,Animals,noun,0,
 der Hamster,the hamster,Animals,noun,0,
 die Fledermaus,the bat,Animals,noun,0,
@@ -279,23 +279,23 @@ laufen,to walk/run,,verb,0,
 schwimmen,to swim,,verb,0,
 fliegen,to fly,,verb,0,
 das Fell,the fur,Animals,noun,0,
-die Schuppen,the scales(fish),Animals,noun,1,
+die Schuppen,the scales(fish),Animals,noun,0,
 die Federn,the feathers,Animals,noun,0,
-der Panzer,the shell/shield,Animals,noun,1,
+der Panzer,the shell/shield,Animals,noun,0,
 das Inseckt,the insect,Animals,noun,0,
 die Inseckten,the insects,Animals,noun,0,
 die Reptilien,the reptiles,Animals,noun,0,
 die Amphibien,the amphibians,Animals,noun,0,
-die Säugetiere,the mammals,Animals,noun,1,
-das Maul,the mouth (animal),Animals,noun,1,
-die Krallen,the claws,Animals,noun,1,
-die Pfoten,the paws,Animals,noun,1,
+die Säugetiere,the mammals,Animals,noun,0,
+das Maul,the mouth (animal),Animals,noun,0,
+die Krallen,the claws,Animals,noun,0,
+die Pfoten,the paws,Animals,noun,0,
 der Schwanz,the tail,Animals,noun,0,
 das Euter,the udder,Animals,noun,0,
-die Schnurrhaare,the whiskers,Animals,noun,1,
-die Schnauze,the snout,Animals,noun,1,
+die Schnurrhaare,the whiskers,Animals,noun,0,
+die Schnauze,the snout,Animals,noun,0,
 der Schnabel,the beak,Animals,noun,0,
-die Tatzen,the paws (big),Animals,noun,1,
+die Tatzen,the paws (big),Animals,noun,0,
 die Körperteile,the body parts,Animals,noun,0,
 der Wald,the forest,Animals,noun,0,
 die Pflanze,the plant,Animals,noun,0,
@@ -319,12 +319,12 @@ der Zylinder,the cylinder,,noun,0,
 die Pyramide,the pyramid,,noun,0,
 der Metzgerei,the butcher's shop,,noun,0,
 der Schrottplatz,the scrap yard,,noun,0,
-der Tau,the dew,,noun,1,
+der Tau,the dew,,noun,0,
 der Zopf,the pony-tail/plait,,noun,0,
 flechten,to plait,,verb,0,
 die Erwachsene,the adults,,noun,0,
 pädagogisch,educational,,adjv,0,
-falls,in case,,conj,3,
+falls,in case,,conj,1,
 und,and,,conj,0,
 oder,or,,conj,0,
 aber,but,,conj,0,aber
@@ -389,3 +389,10 @@ aufschlagen,to open,,verb,3,
 beugen,to bend,,verb,3,
 sich beugen,to bow,,verb,3,
 der Umschlag,the cover,,noun,3,
+schimpfen,to complain/scold,,verb,5,
+erwidern,to reply,,verb,5,
+die Austrüstung,the equipment,,noun,5,
+atmen,to breathe,,verb,5,
+erfrieren,to freeze,,verb,5,
+ausbilden,to train,,verb,5,
+das Gebäude,the building,,noun,5,
