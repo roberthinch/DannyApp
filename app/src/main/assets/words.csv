@@ -207,66 +207,66 @@ spazieren gehen,to go for a walk,,verb,0,
 ich gehe spazieren,I go for a walk,,verb_fps,0,
 der Bergsteiger,the climber/mountaineer,,noun,0,
 dürfen,to be allowed to,,verb,0,
-ich darf,I may,,verb_fps,0,
-vielleicht,perhaps,,adjv,0,
-schlagen,to hit/strike,,verb,0,
-die Richtung,the direction,,noun,0,
-nirgends,nowhere,,adjv,0,
-weiter,further/continue,,adjv,0,
-der Kreis,the circle,Shapes,noun,0,
-das Oval,the oval,Shapes,noun,0,
-das Dreieck,the triangle,Shapes,noun,0,
-das Quadrat,the square,Shapes,noun,0,
-das Rechteck,the rectangle,Shapes,noun,0,
-der Halbkreis,the semicircle,Shapes,noun,0,
-geometrische,geometry/form,Shapes,adjv,0,
-die Ecke,the corner,Shapes,noun,0,
-gerade,straight,Shapes,adjv,0,
-gebogen,curved,Shapes,adjv,0,
-die Gardine,the curtain,Home,noun,0,
-das Eichhörnchen,the squirrel,Animals,noun,0,
-das Lineal,the ruler,Shapes,noun,0,
-einsperren,to lock up,,verb,0,
-retten,to rescue,,verb,0,
-der Fluss,the river,,noun,0,
-der Buchstabe,the letter (alphabet),,noun,0,
-die Null,the zero,,noun,0,
-gefährlich,dangerous,,adjv,0,
-ich wurde,I became,,verb_fps,0,
-ich würde,I would,,verb_fps,0,
-der Schlüssel,the key,,noun,0,
-senken,to lower,,verb,0,
-reiten,to ride,,verb,0,
-bange,scared,,adjv,0,
-der Wachmann,the security guard,,noun,0,
-doppelt,double,,adjv,0,
-dreifach,triple,,adjv,0,
-weniger,less,,adjv,0,
-die Eiche,the oak tree,,noun,0,
-die Eichel,the acorn,,noun,0,
-übrig,remaining,,adjv,0,
-nehmen,to take,,verb,0,
-ich nahm,I took,,verb_fps,0,
-manchmal,sometimes,,adjv,0,
-bockig,stubborn,,adjv,0,
-übrigens,besides,,adjv,0,
-verwirren,to confuse,,verb,0,
-gelegentlich,occasionally,,adjv,0,
-der Regenschirm,the umbrella,,noun,0,
-verbinden,to join/connect,,verb,0,
-der Bleistift,the pencil,,noun,0,
-der Rahmen,the frame,,noun,0,
-stolz,proud,,adjv,0,
-das Haupt,the chief,,noun,0,
-die Frau,the wife,,noun,0,
-der Ehemann,the husband,,noun,0,
-verheiraten,to marry,,verb,0,
-das Dorf,the village,,noun,0,
-die Stadt,the town,,noun,0,
-das Zelt,the tent,,noun,0,
-kräftig,strong,,adjv,0,
-der Delphin,the dolphin,Animals,noun,0,
-der Biber,the beaver,Animals,noun,0,
+ich darf,I may,,verb_fps,0,ich_darf
+vielleicht,perhaps,,adjv,0,vielleicht
+schlagen,to hit/strike,,verb,0,schlagen
+die Richtung,the direction,,noun,0,die_richtung
+nirgends,nowhere,,adjv,0,nirgends
+weiter,further/continue,,adjv,0,weiter
+der Kreis,the circle,Shapes,noun,0,der_kreis
+das Oval,the oval,Shapes,noun,0,das_oval
+das Dreieck,the triangle,Shapes,noun,0,das_dreieck
+das Quadrat,the square,Shapes,noun,0,das_quadrat
+das Rechteck,the rectangle,Shapes,noun,0,das_rechteck
+der Halbkreis,the semicircle,Shapes,noun,0,der_halbkreis
+geometrische,geometry/form,Shapes,adjv,0,geometrische
+die Ecke,the corner,Shapes,noun,0,die_ecke
+gerade,straight,Shapes,adjv,0,gerade
+gebogen,curved,Shapes,adjv,0,gebogen
+die Gardine,the curtain,Home,noun,0,die_gardine
+das Eichhörnchen,the squirrel,Animals,noun,0,das_eichhornchen
+das Lineal,the ruler,Shapes,noun,0,das_lineal
+einsperren,to lock up,,verb,0,einsperren
+retten,to rescue,,verb,0,retten
+der Fluss,the river,,noun,0,der_fluss
+der Buchstabe,the letter (alphabet),,noun,0,der_buchstabe
+die Null,the zero,,noun,0,die_null
+gefährlich,dangerous,,adjv,0,gefahrlich
+ich wurde,I became,,verb_fps,0,ich_wurde
+ich würde,I would,,verb_fps,0,ich_wuerde
+der Schlüssel,the key,,noun,0,der_schlussel
+senken,to lower,,verb,0,senken
+reiten,to ride,,verb,0,reiten
+bange,scared,,adjv,0,bange
+der Wachmann,the security guard,,noun,0,der_wachmann
+doppelt,double,,adjv,0,doppelt
+dreifach,triple,,adjv,0,dreifach
+weniger,less,,adjv,0,weniger
+die Eiche,the oak tree,,noun,0,die_eiche
+die Eichel,the acorn,,noun,0,die_eichel
+übrig,remaining,,adjv,0,ubrig
+nehmen,to take,,verb,0,nehmen
+ich nahm,I took,,verb_fps,0,ich_nahm
+manchmal,sometimes,,adjv,0,manchmal
+bockig,stubborn,,adjv,0,bockig
+übrigens,besides,,adjv,0,ubrigens
+verwirren,to confuse,,verb,0,verwirren
+gelegentlich,occasionally,,adjv,0,gelegentlich
+der Regenschirm,the umbrella,,noun,0,der_regenschirm
+verbinden,to join/connect,,verb,0,verbinden
+der Bleistift,the pencil,,noun,0,der_bleistif
+der Rahmen,the frame,,noun,0,der_rahmen
+stolz,proud,,adjv,0,stolz
+das Häuptling,the chief,,noun,0,das_hauptling
+die Ehefrau,the wife,,noun,0,die_ehefrau
+der Ehemann,the husband,,noun,0,der_ehemann
+verheiraten,to marry,,verb,0,verheiraten
+das Dorf,the village,,noun,0,das_dorf
+die Stadt,the town,,noun,0,die_stadt
+das Zelt,the tent,,noun,0,das_zelt
+kräftig,strong,,adjv,0,kraftig
+der Delphin,the dolphin,Animals,noun,0,der_delphin
+der Biber,the beaver,Animals,noun,0,der_biber
 der Wellensittich,the budgie,Animals,noun,0,der_wellensittich
 der Orang-Utan,the orang-utan,Animals,noun,0,der_orang_utan
 der Hamster,the hamster,Animals,noun,0,der_hamster
