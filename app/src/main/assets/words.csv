@@ -267,66 +267,66 @@ das Zelt,the tent,,noun,0,
 kräftig,strong,,adjv,0,
 der Delphin,the dolphin,Animals,noun,0,
 der Biber,the beaver,Animals,noun,0,
-der Wellensittich,the budgie,Animals,noun,0,
-der Orang-Utan,the orang-utan,Animals,noun,0,
-der Hamster,the hamster,Animals,noun,0,
-die Fledermaus,the bat,Animals,noun,0,
-das Wildschwein,the boar,Animals,noun,0,
-die Motte,the moth,Animals,noun,0,
-der Wal,the whale,Animals,noun,0,
-der Mensch,the person,Animals,noun,0,
-laufen,to walk/run,,verb,0,
-schwimmen,to swim,,verb,0,
-fliegen,to fly,,verb,0,
-das Fell,the fur,Animals,noun,0,
-die Schuppen,the scales(fish),Animals,noun,0,
-die Federn,the feathers,Animals,noun,0,
-der Panzer,the shell/shield,Animals,noun,0,
-das Inseckt,the insect,Animals,noun,0,
-die Inseckten,the insects,Animals,noun,0,
-die Reptilien,the reptiles,Animals,noun,0,
-die Amphibien,the amphibians,Animals,noun,0,
-die Säugetiere,the mammals,Animals,noun,0,
-das Maul,the mouth (animal),Animals,noun,0,
-die Krallen,the claws,Animals,noun,0,
-die Pfoten,the paws,Animals,noun,0,
-der Schwanz,the tail,Animals,noun,0,
-das Euter,the udder,Animals,noun,0,
-die Schnurrhaare,the whiskers,Animals,noun,0,
-die Schnauze,the snout,Animals,noun,0,
-der Schnabel,the beak,Animals,noun,0,
-die Tatzen,the paws (big),Animals,noun,0,
-die Körperteile,the body parts,Animals,noun,0,
-der Wald,the forest,Animals,noun,0,
-die Pflanze,the plant,Animals,noun,0,
-der Regenwald,the rain forest,Animals,noun,0,
-die Luft,the air,,noun,0,
-der Bauernhof,the farm,Animals,noun,0,
-der Land,the land,,noun,0,
-der Nordpol,the north pole,,noun,0,
-der Südpol,the south pole,,noun,0,
-der Erde,the earth,,noun,0,
-die Wüste,the desert,,noun,0,
-der Ozean,the ocean,,noun,0,
-die Zunkuft,the future,,noun,0,
-der Knirps,the little chap,,noun,0,
-der Hirsch,the stag,Animals,noun,0,
-unsinn,nonsense,,adjv,0,
-der Kugel,the sphere,,noun,1,
-der Würfel,the cube,,noun,1,
-der Kegel,the cone,,noun,1,
-der Zylinder,the cylinder,,noun,0,
-die Pyramide,the pyramid,,noun,0,
-der Metzgerei,the butcher's shop,,noun,0,
-der Schrottplatz,the scrap yard,,noun,0,
-der Tau,the dew,,noun,0,
-der Zopf,the pony-tail/plait,,noun,0,
-flechten,to plait,,verb,0,
-die Erwachsene,the adults,,noun,0,
-pädagogisch,educational,,adjv,0,
-falls,in case,,conj,1,
-und,and,,conj,0,
-oder,or,,conj,0,
+der Wellensittich,the budgie,Animals,noun,0,der_wellensittich
+der Orang-Utan,the orang-utan,Animals,noun,0,der_orang_utan
+der Hamster,the hamster,Animals,noun,0,der_hamster
+die Fledermaus,the bat,Animals,noun,0,die_fledermaus
+das Wildschwein,the boar,Animals,noun,0,das_wildschwein
+die Motte,the moth,Animals,noun,0,die_motte
+der Wal,the whale,Animals,noun,0,der_wal
+der Mensch,the person,Animals,noun,0,der_mensch
+laufen,to walk/run,,verb,0,laufen
+schwimmen,to swim,,verb,0,schwimmen
+fliegen,to fly,,verb,0,fliegen
+das Fell,the fur,Animals,noun,0,das_fell
+die Schuppen,the scales(fish),Animals,noun,0,die_schuppen
+die Federn,the feathers,Animals,noun,0,die_federn
+der Panzer,the shell/shield,Animals,noun,0,der_panzer
+das Inseckt,the insect,Animals,noun,0,das_inseckt
+die Inseckten,the insects,Animals,noun,0,die_inseckten
+die Reptilien,the reptiles,Animals,noun,0,die_reptilien
+die Amphibien,the amphibians,Animals,noun,0,die_amphibien
+die Säugetiere,the mammals,Animals,noun,0,die_saugetiere
+das Maul,the mouth (animal),Animals,noun,0,das_maul
+die Krallen,the claws,Animals,noun,0,die_krallen
+die Pfoten,the paws,Animals,noun,0,die_pfoten
+der Schwanz,the tail,Animals,noun,0,der_schwanz
+das Euter,the udder,Animals,noun,0,das_euter
+die Schnurrhaare,the whiskers,Animals,noun,0,die_schnurrhaare
+die Schnauze,the snout,Animals,noun,0,die_schnauze
+der Schnabel,the beak,Animals,noun,0,der_schnabel
+die Tatzen,the paws (big),Animals,noun,0,die_tatzen
+die Körperteile,the body parts,Animals,noun,0,die_korperteile
+der Wald,the forest,Animals,noun,0,der_wald
+die Pflanze,the plant,Animals,noun,0,die_pflanze
+der Regenwald,the rain forest,Animals,noun,0,der_regenwald
+die Luft,the air,,noun,0,die_luft
+der Bauernhof,the farm,Animals,noun,0,der_bauernhof
+das Land,the land,,noun,0,das_land
+der Nordpol,the north pole,,noun,0,der_nordpol
+der Südpol,the south pole,,noun,0,der_sudpol
+der Erde,the earth,,noun,0,der_erde
+die Wüste,the desert,,noun,0,die_wuste
+der Ozean,the ocean,,noun,0,der_ozean
+die Zunkuft,the future,,noun,0,die_zunkuft
+der Knirps,the little chap,,noun,0,der_knirps
+der Hirsch,the stag,Animals,noun,0,der_hirsch
+der Unsinn,the nonsense,,noun,0,der_unsinn
+der Kugel,the sphere,,noun,1,der_kugel
+der Würfel,the cube,,noun,1,der_wurfel
+der Kegel,the cone,,noun,1,der_kegel
+der Zylinder,the cylinder,,noun,0,der_zylinder
+die Pyramide,the pyramid,,noun,0,die_pyramide
+der Metzgerei,the butcher's shop,,noun,0,der_metzgerei
+der Schrottplatz,the scrap yard,,noun,0,der_schrottplatz
+der Tau,the dew,,noun,0,der_tau
+der Zopf,the pony-tail/plait,,noun,0,der_zopf
+flechten,to plait,,verb,0,flechten
+die Erwachsene,the adults,,noun,0,die_erwachsene
+pädagogisch,educational,,adjv,0,padagogisch
+falls,in case,,conj,1,falls
+und,and,,conj,0,und
+oder,or,,conj,0,oder
 aber,but,,conj,0,aber
 als,when/as,,conj,1,als
 wenn,when/if,,conj,1,wenn
