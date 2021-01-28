@@ -327,61 +327,61 @@ pädagogisch,educational,,adjv,0,
 falls,in case,,conj,3,
 und,and,,conj,0,
 oder,or,,conj,0,
-aber,but,,conj,0,
-als,when/as,,conj,1,
-wenn,when/if,,conj,1,
-denn,because/for,,conj,1,
-weil,because,,conj,0,
-ob,if/whether,,conj,1,
-so,so,,conj,0,
-sobald,whenever,,conj,1,
-seit,since,,conj,1,
-während,whilst,,conj,1,
-nachdem,after/once,,conj,1,
-bis,until,,conj,1,
-kennen,to know,,verb,1,
-dichten,to compose/write,,verb,1,
-möglich,possible,,adjv,1,
-möglicherweise,possibly,,adjv,1,
-der Malkasten,the paintbox,,noun,0,
-der Stiel,the stalk,,noun,1,
-stachelig,spikey/prickley,,adjv,1,
-der Witz,the joke,,noun,0,
-jagen,to hunt,,verb,0,
-heizen,to heat,,verb,1,
-dringend,urgent,,adjv,1,
-gucken,to watch/look,,verb,0,
-langweillig,boring,,adjv,0,
-interessant,interesting,,adjv,0,
-das Dach,the roof,,noun,0,
-das Geländer,the railing,,noun,1,
-das Fenster,the window,,noun,0,
-die Treppe,the stairs,,noun,0,
-verwenden,to use,,verb,1,
-der Zauberspruch,the magic spell,,noun,0,
-leider,unfortunately,,adjv,1,
-komisch,funny,,adjv,1,
-der Schornstein,the chimney,,noun,1,
-der Strahl,the beam/ray,,noun,1,
-zauberhaft,magical/enchanting,,adjv,1,
-beschreiben,to describe,,verb,1,
-schütten,to pour,,verb,2,
-schütteln,to shake,,verb,2,
-der Nachwuchs,the offspring (children),,noun,2,
-der Torwart,the goalkeeper,,noun,1,
-der Elfmeter,the penalty (football),,noun,1,
-das Endspiel,the final (sport),,noun,1,
-die Plege,the care/nursing,,noun,5,
-der Stall,the stable/hutch,Animals,noun,5,
-wirken,to seem,,verb,3,
-zwischen,between,,adjv,2,
-der Knocken,the bone,Animals,noun,1,
-die Flöte,the flute,,noun,1,
-prallen,to bounce,,verb,5,
-jubeln,to celebrate,,verb,3,
-die Latte,the goalposts,,noun,3,
-der Tierarzt,the vet,Animals,noun,3,
-schließlich,finally/eventually,,adjv,3,
+aber,but,,conj,0,aber
+als,when/as,,conj,1,als
+wenn,when/if,,conj,1,wenn
+denn,because/for,,conj,1,denn
+weil,because,,conj,0,weil
+ob,if/whether,,conj,1,ob
+so,so,,conj,0,so
+sobald,whenever,,conj,1,sobald
+seit,since,,conj,1,seit
+während,whilst,,conj,1,wahrend
+nachdem,after/once,,conj,1,nachdem
+bis,until,,conj,1,bis
+kennen,to know,,verb,1,kennen
+dichten,to compose/write,,verb,1,dichten
+möglich,possible,,adjv,1,moglich
+möglicherweise,possibly,,adjv,1,moglicherweise
+der Malkasten,the paintbox,,noun,0,der_malkasten
+der Stiel,the stalk,,noun,1,der_stiel
+stachelig,spikey/prickley,,adjv,1,stachelig
+der Witz,the joke,,noun,0,der_witz
+jagen,to hunt,,verb,0,jagen
+heizen,to heat,,verb,1,heizen
+dringend,urgent,,adjv,1,dringend
+gucken,to watch/look,,verb,0,gucken
+langweillig,boring,,adjv,0,langweillig
+interessant,interesting,,adjv,0,interessant
+das Dach,the roof,,noun,0,das_dach
+das Geländer,the railing,,noun,1,das_gelander
+das Fenster,the window,,noun,0,das_fenster
+die Treppe,the stairs,,noun,0,die_treppe
+verwenden,to use,,verb,1,verwenden
+der Zauberspruch,the magic spell,,noun,0,der_zauberspruch
+leider,unfortunately,,adjv,1,leider
+komisch,funny,,adjv,1,komisch
+der Schornstein,the chimney,,noun,1,der_schornstein
+der Strahl,the beam/ray,,noun,1,der_strahl
+zauberhaft,magical/enchanting,,adjv,1,zauberhaft
+beschreiben,to describe,,verb,1,beschreiben
+schütten,to pour,,verb,2,schutten
+schütteln,to shake,,verb,2,schutteln
+der Nachwuchs,the offspring (children),,noun,2,der_nachwuchs
+der Torwart,the goalkeeper,,noun,1,der_torwart
+der Elfmeter,the penalty (football),,noun,1,der_elfmeter
+das Endspiel,the final (sport),,noun,1,das_endspiel
+die Plege,the care/nursing,,noun,5,die_plege
+der Stall,the stable/hutch,Animals,noun,5,der_stall
+wirken,to seem,,verb,3,wirken
+zwischen,between,,adjv,2,zwischen
+der Knocken,the bone,Animals,noun,1,der_knocken
+die Flöte,the flute,,noun,1,die_flote
+prallen,to bounce,,verb,5,prallen
+jubeln,to celebrate,,verb,3,jubeln
+die Latte,the goalposts,,noun,3,die_latte
+der Tierarzt,the vet,Animals,noun,3,der_tierarzt
+schließlich,finally/eventually,,adjv,3,schliesslich
 gemeinsam,together,,adjv,3,
 erlösen,to save,,verb,3,
 entdecken,to discover,,verb,3,
