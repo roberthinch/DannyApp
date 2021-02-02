@@ -147,66 +147,67 @@ seufzen,to sigh,,verb,0,
 raten,to guess,,verb,0,
 toll,great,,adjv,0,
 abwesend,absent,,adjv,0,
-tatsächlich,indeed,,adjv,0,
-jetzt,now,,adjv,0,
-nur,only,,adjv,0,
-häufig,frequently,,adjv,0,
-gesund,healthy,,adjv,0,
-giftig,poisonous,,adjv,0,
-immer,always,,adjv,0,
-bequem,comfortably,,adjv,0,
-leer,empty,,adjv,0,
-voll,full,,adjv,0,
-schlimm,bad,,adjv,0,
-schlecht,bad,,adjv,0,
-schrecklich,terrible,,adjv,0,
-gesamt,total,,adjv,0,
-ingesamt,altogether,,adjv,0,
-schief,crooked,,adjv,0,
-verschieden,different,,adjv,0,
-unsichtbar,invisible,,adjv,0,
-sichtbar,visible,,adjv,0,
-ähnlich,similar,,adjv,0,
-gleich,identical,,adjv,0,
-bald,soon,,adjv,0,
-verrückt,crazy,,adjv,0,
-leise,quitely,,adjv,0,
-genug,enough,,adjv,0,
-laut,loud,,adjv,0,
-groß,large,,adjv,0,
-klein,small,,adjv,0,
-schnell,fast,,adjv,0,
-langsam,slow,,adjv,0,
-unterrichten,to teach/instruct,,verb,0,
-seltsam,strange,,adjv,0,
-erleben,to experience,,verb,0,
-die Sahne,the cream,Food,noun,0,
-das Brett,the shelf/plank,House,noun,0,
-reden,to talk/speak,,verb,0,
-die Pause,the break/interval,,noun,0,
-die Perle,the pearl,House,noun,0,
-schnarchen,to snore,,verb,0,
-der Traum,the dream,,noun,0,
-der Zwerg,the dwarf,,noun,0,
-die Apfelsine,the orange,Food,noun,0,
-sich freuen,to be pleased with,,verb,0,
-schwer,heavy/hard,,adjv,0,
-licht,light,,adjv,0,
-weich,soft,,adjv,0,
-hart,hard/firm,,adjv,0,
-ich traf,I met,,verb_fps,0,
-ärgern,to annoy,,verb,0,
-sich ärgern,to get annoyed,,verb,0,
-reimen,to rhyme,,verb,0,
-schnauben,to snort,,verb,0,
-der Stecker,the plug,,noun,0,
-der Strom,the current/stream,,noun,0,
-regelmäßig,regular/frequent,,adjv,0,
-spazieren,to walk/stroll,,verb,0,
-spazieren gehen,to go for a walk,,verb,0,
-ich gehe spazieren,I go for a walk,,verb_fps,0,
-der Bergsteiger,the climber/mountaineer,,noun,0,
-dürfen,to be allowed to,,verb,0,
+tatsächlich,indeed,,adjv,0,tatsachlich
+jetzt,now,,adjv,0,jetzt
+nur,only,,adjv,0,nur
+häufig,frequently,,adjv,0,haufig
+gesund,healthy,,adjv,0,gesund
+giftig,poisonous,,adjv,0,giftig
+immer,always,,adjv,0,immer
+bequem,comfortably,,adjv,0,bequem
+leer,empty,,adjv,0,leer
+voll,full,,adjv,0,voll
+schlimm,bad,,adjv,0,schlimm
+schlecht,bad,,adjv,0,schlecht
+schrecklich,terrible,,adjv,0,schrecklich
+gesamt,total,,adjv,0,gesamt
+insgesamt,altogether,,adjv,0,insgesamt
+schief,crooked,,adjv,0,schief
+verschieden,different,,adjv,0,verschieden
+unsichtbar,invisible,,adjv,0,unsichtbar
+sichtbar,visible,,adjv,0,sichtbar
+ähnlich,similar,,adjv,0,ahnlich
+gleich,identical,,adjv,0,gleich
+bald,soon,,adjv,0,bald
+verrückt,crazy,,adjv,0,verruckt
+leise,quitely,,adjv,0,leise
+genug,enough,,adjv,0,genug
+laut,loud,,adjv,0,laut
+groß,large,,adjv,0,gross
+klein,small,,adjv,0,klein
+schnell,fast,,adjv,0,schnell
+langsam,slow,,adjv,0,langsam
+unterrichten,to teach/instruct,,verb,0,unterrichten
+seltsam,strange,,adjv,0,seltsam
+erleben,to experience,,verb,0,erleben
+die Sahne,the cream,Food,noun,0,die_sahne
+das Brett,the shelf/plank,House,noun,0,das_brett
+reden,to talk/speak,,verb,0,reden
+die Pause,the break/interval,,noun,0,die_pause
+die Perle,the pearl,House,noun,0,die_perle
+schnarchen,to snore,,verb,0,schnarchen
+der Traum,the dream,,noun,0,der_traum
+der Zwerg,the dwarf,,noun,0,der_zwerg
+die Apfelsine,the orange,Food,noun,0,die_apfelsine
+sich freuen,to be pleased with,,verb,0,sich_freuen
+schwer,heavy/hard,,adjv,0,schwer
+leicht,light,,adjv,0,leicht
+das Licht,the light,,noun,0,das_licht
+weich,soft,,adjv,0,weich
+hart,hard/firm,,adjv,0,hart
+ich traf,I met,,verb_fps,0,ich_traf
+ärgern,to annoy,,verb,0,argern
+sich ärgern,to get annoyed,,verb,0,sich_argern
+reimen,to rhyme,,verb,0,reimen
+schnauben,to snort,,verb,0,schnauben
+der Stecker,the plug,,noun,0,der_stecker
+der Strom,the current/stream,,noun,0,der_strom
+regelmäßig,regular/frequent,,adjv,0,regelmassig
+spazieren,to walk/stroll,,verb,0,spazieren
+spazieren gehen,to go for a walk,,verb,0,spazieren_gehen
+ich gehe spazieren,I go for a walk,,verb_fps,0,ich_gehe_spazieren
+der Bergsteiger,the climber/mountaineer,,noun,0,der_bergsteiger
+dürfen,to be allowed to,,verb,0,durfen
 ich darf,I may,,verb_fps,0,ich_darf
 vielleicht,perhaps,,adjv,0,vielleicht
 schlagen,to hit/strike,,verb,0,schlagen
@@ -396,3 +397,24 @@ atmen,to breathe,,verb,5,
 erfrieren,to freeze,,verb,5,
 ausbilden,to train,,verb,5,
 das Gebäude,the building,,noun,5,
+das Lebewesen,the creature,Animals,noun,5,
+die Flosse,the fin,Animals,noun,5,
+der Angelhaken,the fish hook,,noun,5,
+der Haekn,the hook,,noun,5,
+der Kochtopf,the saucepan,,noun,5,
+die Luftblase,the air bubble,,noun,5,
+tief,deep,,adjv,5,
+die Ahnung,the idea,,noun,5,
+die Wissenschaft,the science,,noun,5,
+der Wissenschaftler,the scientist,,noun,5,
+die Kuppel,the dome,,noun,5,
+die Hummel,the bumblebee,Animals,noun,5,
+die Hütte,the cottage,,noun,5,
+die Nadel,the needle,,noun,5,
+der Hafen,the harbour/port,,noun,5,
+nicken,to nod,,verb,5,
+bedeuten,to mean,,verb,5,
+ausleihen,to borrow/lend,,verb,5,
+arm,poor,,adjv,5,
+aufregen,to excite,,verb,5,
+
