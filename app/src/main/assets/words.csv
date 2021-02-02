@@ -72,81 +72,81 @@ der Verkehr,the traffic,Outdoors,noun,0,
 die Szene,the scene,Outdoors,noun,0,
 der Müll,the rubbish,House,noun,0,
 die Zange,the pliers,House,noun,0,
-das Werkzeug,the tool,House,noun,0,
-der Schuppen,the shed,House,noun,0,
-der Umhang,the cape,Clothes,noun,0,
-die Fabrik,the factory,Outdoors,noun,0,
-die Säge,the saw,House,noun,0,
-der Hammer,the hammer,House,noun,0,
-ich bin,I am,,verb_fps,0,
-ich war,I was,,verb_fps,0,
-ich habe,I have,,verb_fps,0,
-ich hatte,I had,,verb_fps,0,
-ich gehe,I go,,verb_fps,0,
-ich ging,I went,,verb_fps,0,
-ich will,I want,,verb_fps,0,
-ich weiß,I know,,verb_fps,0,
-ich spreche,I speak,,verb_fps,0,
-ich sage,I say,,verb_fps,0,
-ich sagte,I said,,verb_fps,0,
-ich lese,I read,,verb_fps,0,
-ich sehe,I see,,verb_fps,0,
-ich sah,I saw,,verb_fps,0,
-ich denke,I think,,verb_fps,0,
-denken,to think,,verb,0,
-nachdenken,to think about,,verb,0,
-ankommen,to arrive,,verb,0,
-aufsehen,to look up,,verb,0,
-ansehen,to look at,,verb,0,
-bestätigen,to confirm,,verb,0,
-aufspringen,to jump up,,verb,0,
-aussehen,to look,,verb,0,
-pusten,to blow/puff,,verb,0,
-rechnen,to calculate,,verb,0,
-folgen,to follow,,verb,0,
-zeigen,to show,,verb,0,
-graben,to dig,,verb,0,
-strecken,to stretch,,verb,0,
-knurren,to growl,,verb,0,
-werfen,to throw,,verb,0,
-bewegen,to move,,verb,0,
-herstellen,to make/produce,,verb,0,
-bekommen,to get,,verb,0,
-kämpfen,to fight,,verb,0,
-schlucken,to swallow,,verb,0,
-entkommen,to escape,,verb,0,
-bestellen,to order,,verb,0,
-ziehen,to pull,,verb,0,
-drücken,to push,,verb,0,
-sollen,to be supposed to (should),,verb,0,
-beobachten,to watch,,verb,0,
-kümmern,to concern,,verb,0,
-vorschlagen,to suggest,,verb,0,
-verschwinden,to disappear,,verb,0,
-meinen,to mean/say,,verb,0,
-gehören,to belong,,verb,0,
-kehren,to sweep,,verb,0,
-treffen,to meet,,verb,0,
-segeln,to sail,,verb,0,
-blicken,to look,,verb,0,
-sich erinnern,to remember,,verb,0,
-reisen,to travel,,verb,0,
-gefallen,to please,,verb,0,
-reichen,to reach,,verb,0,
-benutzen,to use,,verb,0,
-stolpern,to stumble,,verb,0,
-ich nehme,I take,,verb_fps,0,
-heben,to lift,,verb,0,
-sammeln,to collect,,verb,0,
-beißen,to bite,,verb,0,
-suchen,to search,,verb,0,
-finden,to find,,verb,0,
-träumen,to dream,,verb,0,
-halten,to hold/keep,,verb,0,
-seufzen,to sigh,,verb,0,
-raten,to guess,,verb,0,
-toll,great,,adjv,0,
-abwesend,absent,,adjv,0,
+das Werkzeug,the tool,House,noun,0,das_werkzeug
+der Schuppen,the shed,House,noun,0,der_schuppen
+der Umhang,the cape,Clothes,noun,0,der_umhang
+die Fabrik,the factory,Outdoors,noun,0,die_fabrik
+die Säge,the saw,House,noun,0,die_sage
+der Hammer,the hammer,House,noun,0,der_hammer
+ich bin,I am,,verb_fps,0,ich_bin
+ich war,I was,,verb_fps,0,ich_war
+ich habe,I have,,verb_fps,0,ich_habe
+ich hatte,I had,,verb_fps,0,ich_hatte
+ich gehe,I go,,verb_fps,0,ich_gehe
+ich ging,I went,,verb_fps,0,ich_ging
+ich will,I want,,verb_fps,0,ich_will
+ich weiß,I know,,verb_fps,0,ich_weiss
+ich spreche,I speak,,verb_fps,0,ich_spreche
+ich sage,I say,,verb_fps,0,ich_sage
+ich sagte,I said,,verb_fps,0,ich_sagte
+ich lese,I read,,verb_fps,0,ich_lese
+ich sehe,I see,,verb_fps,0,ich_sehe
+ich sah,I saw,,verb_fps,0,ich_sah
+ich denke,I think,,verb_fps,0,ich_denke
+denken,to think,,verb,0,denken
+nachdenken,to think about,,verb,0,nachdenken
+ankommen,to arrive,,verb,0,ankommen
+aufsehen,to look up,,verb,0,aufsehen
+ansehen,to look at,,verb,0,ansehen
+bestätigen,to confirm,,verb,0,bestatigen
+aufspringen,to jump up,,verb,0,aufspringen
+aussehen,to look,,verb,0,aussehen
+pusten,to blow/puff,,verb,0,pusten
+rechnen,to calculate,,verb,0,rechnen
+folgen,to follow,,verb,0,folgen
+zeigen,to show,,verb,0,zeigen
+graben,to dig,,verb,0,graben
+strecken,to stretch,,verb,0,strecken
+knurren,to growl,,verb,0,knurren
+werfen,to throw,,verb,0,werfen
+bewegen,to move,,verb,0,bewegen
+herstellen,to make/produce,,verb,0,herstellen
+bekommen,to get,,verb,0,bekommen
+kämpfen,to fight,,verb,0,kampfen
+schlucken,to swallow,,verb,0,schlucken
+entkommen,to escape,,verb,0,entkommen
+bestellen,to order,,verb,0,bestellen
+ziehen,to pull,,verb,0,ziehen
+drücken,to push,,verb,0,drucken
+sollen,to be supposed to (should),,verb,0,sollen
+beobachten,to watch,,verb,0,beobachten
+kümmern,to concern,,verb,0,kummern
+vorschlagen,to suggest,,verb,0,vorschlagen
+verschwinden,to disappear,,verb,0,verschwinden
+meinen,to mean/say,,verb,0,meinen
+gehören,to belong,,verb,0,gehoren
+kehren,to sweep,,verb,0,kehren
+treffen,to meet,,verb,0,treffen
+segeln,to sail,,verb,0,segeln
+blicken,to look,,verb,0,blicken
+sich erinnern,to remember,,verb,0,sich_erinnern
+reisen,to travel,,verb,0,reisen
+gefallen,to please,,verb,0,gefallen
+reichen,to reach,,verb,0,reichen
+benutzen,to use,,verb,0,benutzen
+stolpern,to stumble,,verb,0,stolpern
+ich nehme,I take,,verb_fps,0,ich_nehme
+heben,to lift,,verb,0,heben
+sammeln,to collect,,verb,0,sammeln
+beißen,to bite,,verb,0,beissen
+suchen,to search,,verb,0,suchen
+finden,to find,,verb,0,finden
+träumen,to dream,,verb,0,traumen
+halten,to hold/keep,,verb,0,halten
+seufzen,to sigh,,verb,0,seufzen
+raten,to guess,,verb,0,raten
+toll,great,,adjv,0,toll
+abwesend,absent,,adjv,0,abwesend
 tatsächlich,indeed,,adjv,0,tatsachlich
 jetzt,now,,adjv,0,jetzt
 nur,only,,adjv,0,nur
