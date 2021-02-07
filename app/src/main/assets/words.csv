@@ -313,29 +313,29 @@ die Zunkuft,the future,,noun,0,die_zunkuft
 der Knirps,the little chap,,noun,0,der_knirps
 der Hirsch,the stag,Animals,noun,0,der_hirsch
 der Unsinn,the nonsense,,noun,0,der_unsinn
-der Kugel,the sphere,,noun,1,der_kugel
-der Würfel,the cube,,noun,1,der_wurfel
-der Kegel,the cone,,noun,1,der_kegel
+der Kugel,the sphere,,noun,0,der_kugel
+der Würfel,the cube,,noun,0,der_wurfel
+der Kegel,the cone,,noun,0,der_kegel
 der Zylinder,the cylinder,,noun,0,der_zylinder
 die Pyramide,the pyramid,,noun,0,die_pyramide
 der Metzgerei,the butcher's shop,,noun,0,der_metzgerei
 der Schrottplatz,the scrap yard,,noun,0,der_schrottplatz
 der Tau,the dew,,noun,0,der_tau
-der Zopf,the pony-tail/plait,,noun,0,der_zopf
+der Zopf,the pig-tail/plait,,noun,0,der_zopf
 flechten,to plait,,verb,0,flechten
 die Erwachsene,the adults,,noun,0,die_erwachsene
 pädagogisch,educational,,adjv,0,padagogisch
-falls,in case,,conj,1,falls
+falls,in case,,conj,0,falls
 und,and,,conj,0,und
 oder,or,,conj,0,oder
 aber,but,,conj,0,aber
-als,when/as,,conj,1,als
+als,when/as,,conj,0,als
 wenn,when/if,,conj,0,wenn
 denn,because/for,,conj,0,denn
 weil,because,,conj,0,weil
 ob,if/whether,,conj,0,ob
 so,so,,conj,0,so
-sobald,whenever,,conj,1,sobald
+sobald,whenever,,conj,0,sobald
 seit,since,,conj,0,seit
 während,whilst,,conj,0,wahrend
 nachdem,after/once,,conj,0,nachdem
@@ -372,52 +372,68 @@ der Nachwuchs,the offspring (children),,noun,0,der_nachwuchs
 der Torwart,the goalkeeper,,noun,0,der_torwart
 der Elfmeter,the penalty (football),,noun,0,der_elfmeter
 das Endspiel,the final (sport),,noun,0,das_endspiel
-die Plege,the care/nursing,,noun,1,die_plege
-der Stall,the stable/hutch,Animals,noun,1,der_stall
-wirken,to seem,,verb,1,wirken
+die Plege,the care/nursing,,noun,0,die_plege
+der Stall,the stable/hutch,Animals,noun,0,der_stall
+wirken,to seem,,verb,0,wirken
 zwischen,between,,adjv,0,zwischen
 der Knocken,the bone,Animals,noun,0,der_knocken
 die Flöte,the flute,,noun,0,die_flote
-prallen,to bounce,,verb,1,prallen
-jubeln,to celebrate,,verb,1,jubeln
+prallen,to bounce,,verb,0,prallen
+jubeln,to celebrate,,verb,0,jubeln
 die Latte,the goalposts,,noun,0,die_latte
 der Tierarzt,the vet,Animals,noun,0,der_tierarzt
-schließlich,finally/eventually,,adjv,1,schliesslich
-gemeinsam,together,,adjv,1,
-erlösen,to save,,verb,1,
-entdecken,to discover,,verb,0,
-aufschlagen,to open,,verb,0,
-beugen,to bend,,verb,0,
-sich beugen,to bow,,verb,0,
-der Umschlag,the cover,,noun,0,
-schimpfen,to complain/scold,,verb,1,
-erwidern,to reply,,verb,1,
-die Austrüstung,the equipment,,noun,1,
-atmen,to breathe,,verb,1,
-erfrieren,to freeze,,verb,1,
-ausbilden,to train,,verb,1,
-das Gebäude,the building,,noun,2,
-das Lebewesen,the creature,Animals,noun,2,
-die Flosse,the fin,Animals,noun,2,
-der Angelhaken,the fish hook,,noun,2,
-der Haken,the hook,,noun,3,
-der Kochtopf,the saucepan,,noun,2,
-die Luftblase,the air bubble,,noun,2,
-tief,deep,,adjv,2,
-die Ahnung,the idea,,noun,2,
-die Wissenschaft,the science,,noun,3,
-der Wissenschaftler,the scientist,,noun,3,
-die Kuppel,the dome,,noun,3,
-die Hummel,the bumblebee,Animals,noun,2,
-die Hütte,the cottage,,noun,2,
-die Nadel,the needle,,noun,2,
-der Hafen,the harbour/port,,noun,2,
-nicken,to nod,,verb,2,
-bedeuten,to mean,,verb,2,
-ausleihen,to borrow/lend,,verb,2,
-arm,poor,,adjv,2,
-aufregen,to excite,,verb,4,
-köstlich,delicious,,adjv,4,
-bereiten,to prepare,,verb,4,
-die Speise,the food,,noun,4,
-decken,to cover,,verb,3,
+schließlich,finally/eventually,,adjv,0,schliesslich
+gemeinsam,together,,adjv,0,gemeinsam
+erlösen,to save,,verb,1,erlosen
+entdecken,to discover,,verb,0,entdecken
+aufschlagen,to open,,verb,0,aufschlagen
+beugen,to bend,,verb,0,beugen
+sich beugen,to bow,,verb,0,sich_beugen
+der Umschlag,the cover,,noun,0,der_umschlag
+schimpfen,to complain/scold,,verb,1,schimpfen
+erwidern,to reply,,verb,1,erwidern
+die Austrüstung,the equipment,,noun,1,die_austrustung
+atmen,to breathe,,verb,0,atmen
+erfrieren,to freeze,,verb,0,erfrieren
+ausbilden,to train,,verb,1,ausbilden
+das Gebäude,the building,,noun,1,das_gebaude
+das Lebewesen,the creature,Animals,noun,1,das_lebewesen
+die Flosse,the fin,Animals,noun,0,die_flosse
+der Angelhaken,the fish hook,,noun,0,der_angelhaken
+der Haken,the hook,,noun,0,der_haken
+der Kochtopf,the saucepan,,noun,0,der_kochtopf
+die Luftblase,the air bubble,,noun,0,die_luftblase
+tief,deep,,adjv,0,tief
+die Ahnung,the idea,,noun,1,die_ahnung
+die Wissenschaft,the science,,noun,1,die_wissenschaft
+der Wissenschaftler,the scientist,,noun,1,der_wissenschaftler
+die Kuppel,the dome,,noun,1,die_kuppel
+die Hummel,the bumblebee,Animals,noun,1,die_hummel
+die Hütte,the cottage,,noun,0,die_hutte
+die Nadel,the needle,,noun,0,die_nadel
+der Hafen,the harbour/port,,noun,1,der_hafen
+nicken,to nod,,verb,1,nicken
+bedeuten,to mean,,verb,1,bedeuten
+ausleihen,to borrow/lend,,verb,1,ausleihen
+arm,poor,,adjv,1,arm
+aufregen,to excite,,verb,2,aufregen
+köstlich,delicious,,adjv,0,kostlich
+bereiten,to prepare,,verb,1,bereiten
+die Speise,the food,,noun,1,die_speise
+decken,to cover,,verb,1,decken
+krumm,curved,,adjv,3,krumm
+die Schale,the skin/peel,,noun,3,die_schale
+frisch,fresh,,adjv,1,frisch
+glatt,smooth,,adjv,3,glatt
+rau,rough,,adjv,3,rau
+schuppig,scaly,,adjv,3,schuppig
+saftig,juicy,,adjv,3,saftig
+der Müller,the miller,,noun,3,der_muller
+das Feld,the field,,noun,3,das_feld
+wachsen,to grow,,verb,3,wachsen
+pflanzen,to plant,,verb,3,pflanzen
+der Samen,the seed,,noun,3,der_samen
+abmachen,to agree,,verb,3,abmachen
+der Wasserhahn,the tap,,noun,3,der_wasserhahn
+tropfen,to grip,,verb,3,tropfen
+deshalb,therefore,,conj,3,deshalb
