@@ -12,6 +12,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.util.*;
@@ -136,11 +137,16 @@ public class MultipleChoice extends AppCompatActivity {
         button = findViewById( R.id.next );
         button.setEnabled( false );
 
+        boolean show_repeat = false;
         if( language == 0 )
-            say_word();
+            show_repeat = say_word();
+        if( !show_repeat ) {
+            ImageButton repeatButton = findViewById( R.id.play_sound );
+            repeatButton.setVisibility(View.GONE);
+        }
     }
 
-    private void say_word()
+    private boolean say_word()
     {
         if( ( soundFileShort.length() > 0 ) ) {
             String uriPath = "android.resource://" + getPackageName() + "/raw/" + soundFileShort;
@@ -148,9 +154,17 @@ public class MultipleChoice extends AppCompatActivity {
 
             if( uri != null ) {
                 MediaPlayer mp = MediaPlayer.create(getApplicationContext(), uri );
+                mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        mp.release();
+                    }
+                });
                 mp.start();
+                return true;
             }
         }
+        return false;
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -213,6 +227,11 @@ public class MultipleChoice extends AppCompatActivity {
         button = findViewById( R.id.next );
         button.setTextColor( Color.BLACK );
         button.setEnabled( true );
+    }
+
+    public void on_play_sound(View view)
+    {
+        say_word();
     }
 
     public void on_next(View view)

@@ -193,4 +193,16 @@
         app:strokeColor="@color/white"
         app:strokeWidth="2dp" />
 
+    <ImageButton
+        android:id="@+id/play_sound"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="3dp"
+        android:onClick="on_play_sound"
+        app:layout_constraintStart_toEndOf="@+id/question_text"
+        app:layout_constraintTop_toBottomOf="@+id/question_correct"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
