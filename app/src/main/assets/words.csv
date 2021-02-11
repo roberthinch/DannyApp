@@ -318,7 +318,7 @@ der Würfel,the cube,,noun,0,der_wurfel
 der Kegel,the cone,,noun,0,der_kegel
 der Zylinder,the cylinder,,noun,0,der_zylinder
 die Pyramide,the pyramid,,noun,0,die_pyramide
-der Metzgerei,the butcher's shop,,noun,0,der_metzgerei
+die Metzgerei,the butcher's shop,,noun,0,der_metzgerei
 der Schrottplatz,the scrap yard,,noun,0,der_schrottplatz
 der Tau,the dew,,noun,0,der_tau
 der Zopf,the pig-tail/plait,,noun,0,der_zopf
@@ -390,50 +390,79 @@ aufschlagen,to open,,verb,0,aufschlagen
 beugen,to bend,,verb,0,beugen
 sich beugen,to bow,,verb,0,sich_beugen
 der Umschlag,the cover,,noun,0,der_umschlag
-schimpfen,to complain/scold,,verb,1,schimpfen
-erwidern,to reply,,verb,1,erwidern
+schimpfen,to complain/scold,,verb,0,schimpfen
+erwidern,to reply,,verb,0,erwidern
 die Austrüstung,the equipment,,noun,1,die_austrustung
 atmen,to breathe,,verb,0,atmen
 erfrieren,to freeze,,verb,0,erfrieren
-ausbilden,to train,,verb,1,ausbilden
-das Gebäude,the building,,noun,1,das_gebaude
-das Lebewesen,the creature,Animals,noun,1,das_lebewesen
+ausbilden,to train,,verb,0,ausbilden
+das Gebäude,the building,,noun,0,das_gebaude
+das Lebewesen,the creature,Animals,noun,0,das_lebewesen
 die Flosse,the fin,Animals,noun,0,die_flosse
 der Angelhaken,the fish hook,,noun,0,der_angelhaken
 der Haken,the hook,,noun,0,der_haken
 der Kochtopf,the saucepan,,noun,0,der_kochtopf
 die Luftblase,the air bubble,,noun,0,die_luftblase
 tief,deep,,adjv,0,tief
-die Ahnung,the idea,,noun,1,die_ahnung
-die Wissenschaft,the science,,noun,1,die_wissenschaft
-der Wissenschaftler,the scientist,,noun,1,der_wissenschaftler
-die Kuppel,the dome,,noun,1,die_kuppel
-die Hummel,the bumblebee,Animals,noun,1,die_hummel
+die Ahnung,the idea,,noun,0,die_ahnung
+die Wissenschaft,the science,,noun,0,die_wissenschaft
+der Wissenschaftler,the scientist,,noun,0,der_wissenschaftler
+die Kuppel,the dome,,noun,0,die_kuppel
+die Hummel,the bumblebee,Animals,noun,0,die_hummel
 die Hütte,the cottage,,noun,0,die_hutte
 die Nadel,the needle,,noun,0,die_nadel
-der Hafen,the harbour/port,,noun,1,der_hafen
-nicken,to nod,,verb,1,nicken
-bedeuten,to mean,,verb,1,bedeuten
-ausleihen,to borrow/lend,,verb,1,ausleihen
-arm,poor,,adjv,1,arm
-aufregen,to excite,,verb,2,aufregen
+der Hafen,the harbour/port,,noun,0,der_hafen
+nicken,to nod,,verb,0,nicken
+bedeuten,to mean,,verb,0,bedeuten
+ausleihen,to borrow/lend,,verb,0,ausleihen
+arm,poor,,adjv,0,arm
+aufregen,to excite,,verb,0,aufregen
 köstlich,delicious,,adjv,0,kostlich
-bereiten,to prepare,,verb,1,bereiten
-die Speise,the food,,noun,1,die_speise
-decken,to cover,,verb,1,decken
-krumm,curved,,adjv,3,krumm
-die Schale,the skin/peel,,noun,3,die_schale
-frisch,fresh,,adjv,1,frisch
-glatt,smooth,,adjv,3,glatt
-rau,rough,,adjv,3,rau
-schuppig,scaly,,adjv,3,schuppig
-saftig,juicy,,adjv,3,saftig
-der Müller,the miller,,noun,3,der_muller
-das Feld,the field,,noun,3,das_feld
-wachsen,to grow,,verb,3,wachsen
-pflanzen,to plant,,verb,3,pflanzen
-der Samen,the seed,,noun,3,der_samen
-abmachen,to agree,,verb,3,abmachen
-der Wasserhahn,the tap,,noun,3,der_wasserhahn
-tropfen,to grip,,verb,3,tropfen
-deshalb,therefore,,conj,3,deshalb
+bereiten,to prepare,,verb,0,bereiten
+die Speise,the food,,noun,0,die_speise
+decken,to cover,,verb,0,decken
+krumm,curved,,adjv,1,krumm
+die Schale,the skin/peel,,noun,0,die_schale
+frisch,fresh,,adjv,0,frisch
+glatt,smooth,,adjv,1,glatt
+rau,rough,,adjv,1,rau
+schuppig,scaly,,adjv,0,schuppig
+saftig,juicy,,adjv,0,saftig
+der Müller,the miller,,noun,0,der_muller
+das Feld,the field,,noun,0,das_feld
+wachsen,to grow,,verb,1,wachsen
+pflanzen,to plant,,verb,0,pflanzen
+der Samen,the seed,,noun,1,der_samen
+abmachen,to agree,,verb,1,abmachen
+der Wasserhahn,the tap,,noun,1,der_wasserhahn
+tropfen,to grip,,verb,1,tropfen
+deshalb,therefore,,conj,1,deshalb
+das Leder,the leather,,noun,1,
+die Schnalle,the belt,,noun,1,
+wechseln,to change,,verb,1,
+der Reißverschluss,the zip,,noun,3,
+wie,how,,conj,1,
+spähen,to peek/peep,,verb,3,
+die Schleuse,the lock,,noun,3,
+der Gang,the walk way,,noun,1,
+ohne,without,,prep,3,
+entlang,along,,prep,3,
+durch,through,,prep,3,
+um,around,,prep,1,
+gegen,against,,prep,1,
+bei,at/near,,prep,1,
+mit,with,,prep,0,
+von,from,,prep,1,
+der Faden,the thread,,noun,3,
+krabbeln,to crawl,,verb,3,
+das Eisen,the iron,,noun,3,
+die Weide,the pasture,,noun,3,
+irren,to be wrong,,verb,3,
+winzig,tiny,,adjv,1,
+die Melone,the melon,,noun,1,
+die Schnur,the string,,noun,3,
+die Lupe,the magnifying glass,,noun,3,
+das Königreich,the kingdom,,noun,3,
+ich tat,I did,,verb_fps,3,
+packen,to grasp/seize,,verb,3,
+die Oberfläche,the surface,,noun,3,
