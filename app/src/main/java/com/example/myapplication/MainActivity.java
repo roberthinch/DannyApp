@@ -1,9 +1,13 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String CURRENT_SCORE = "com.example.myfirstapp.CURRENT_SCORE";
     public static boolean SOUND_EFFECTS = true;
     public static WordStore WORD_STORE;
+    public static WordStore SPELLING_STORE;
     public static int INITIALISED = 0;
     public static int MAX_NUMBER_ADD_GAME = 30;
     public static int MAX_NUMBER_SUBTRACT_GAME = 25;
@@ -34,7 +39,9 @@ public class MainActivity extends AppCompatActivity {
         // load up session singleton noun store
         if( INITIALISED == 0 )
             WORD_STORE = new WordStore( this.getAssets(), "words.csv");
+            SPELLING_STORE = new WordStore( this.getAssets(), "spelling_words.csv");
         INITIALISED = 1;
+
     }
 
     /** Called when the user taps the Send button */
@@ -122,6 +129,14 @@ public class MainActivity extends AppCompatActivity {
     /** Called when the user taps the Send button */
     public void launchSettings( View view) {
         Intent intent = new Intent(this, settings.class);
+        startActivity(intent);
+    }
+
+    public void launchSpelling( View view) {
+        Intent intent = new Intent(this, Spelling.class);
+        intent.putExtra( CURRENT_TOTAL_QUESTIONS, 5 );
+        intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
+        intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         startActivity(intent);
     }
 }
