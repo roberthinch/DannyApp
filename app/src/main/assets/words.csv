@@ -421,10 +421,10 @@ köstlich,delicious,,adjv,0,kostlich
 bereiten,to prepare,,verb,0,bereiten
 die Speise,the food,,noun,0,die_speise
 decken,to cover,,verb,0,decken
-krumm,curved,,adjv,1,krumm
+krumm,curved,,adjv,0,krumm
 die Schale,the skin/peel,,noun,0,die_schale
 frisch,fresh,,adjv,0,frisch
-glatt,smooth,,adjv,1,glatt
+glatt,smooth,,adjv,0,glatt
 rau,rough,,adjv,1,rau
 schuppig,scaly,,adjv,0,schuppig
 saftig,juicy,,adjv,0,saftig
@@ -432,37 +432,49 @@ der Müller,the miller,,noun,0,der_muller
 das Feld,the field,,noun,0,das_feld
 wachsen,to grow,,verb,1,wachsen
 pflanzen,to plant,,verb,0,pflanzen
-der Samen,the seed,,noun,1,der_samen
+der Samen,the seed,,noun,0,der_samen
 abmachen,to agree,,verb,1,abmachen
-der Wasserhahn,the tap,,noun,1,der_wasserhahn
+der Wasserhahn,the tap,,noun,0,der_wasserhahn
 tropfen,to grip,,verb,1,tropfen
 deshalb,therefore,,conj,1,deshalb
-das Leder,the leather,,noun,1,
-die Schnalle,the belt,,noun,1,
-wechseln,to change,,verb,1,
-der Reißverschluss,the zip,,noun,3,
-wie,how,,conj,1,
-spähen,to peek/peep,,verb,3,
-die Schleuse,the lock,,noun,3,
-der Gang,the walk way,,noun,1,
-ohne,without,,prep,3,
-entlang,along,,prep,3,
-durch,through,,prep,3,
-um,around,,prep,1,
-gegen,against,,prep,1,
-bei,at/near,,prep,1,
-mit,with,,prep,0,
-von,from,,prep,1,
-der Faden,the thread,,noun,3,
-krabbeln,to crawl,,verb,3,
-das Eisen,the iron,,noun,3,
-die Weide,the pasture,,noun,3,
-irren,to be wrong,,verb,3,
-winzig,tiny,,adjv,1,
-die Melone,the melon,,noun,1,
-die Schnur,the string,,noun,3,
-die Lupe,the magnifying glass,,noun,3,
-das Königreich,the kingdom,,noun,3,
-ich tat,I did,,verb_fps,3,
-packen,to grasp/seize,,verb,3,
-die Oberfläche,the surface,,noun,3,
+das Leder,the leather,,noun,0,das_leder
+die Schnalle,the buckle,,noun,1,die_schnalle
+der Gürtel,the belt,,noun,1,der_gurtel
+wechseln,to change,,verb,1,wechseln
+der Reißverschluss,the zip,,noun,1,der_reissverschluss
+wie,how,,conj,0,wie
+spähen,to peek/peep,,verb,1,spahen
+die Schleuse,the lock,,noun,1,die_schleuse
+der Gang,the walk way,,noun,0,der_gang
+ohne,without,,prep,1,ohne
+entlang,along,,prep,1,entlang
+durch,through,,prep,1,durch
+um,around,,prep,0,um
+gegen,against,,prep,0,gegen
+bei,at/near,,prep,1,bei
+mit,with,,prep,0,mit
+von,from,,prep,0,von
+der Faden,the thread,,noun,1,der_faden
+krabbeln,to crawl,,verb,1,krabbeln
+das Eisen,the iron,,noun,0,das_eisen
+die Weide,the pasture,,noun,1,die_weide
+irren,to be wrong,,verb,1,irren
+winzig,tiny,,adjv,1,winzig
+die Melone,the melon,,noun,0,die_melone
+die Schnur,the string,,noun,3,die_schnur
+die Lupe,the magnifying glass,,noun,3,die_lupe
+das Königreich,the kingdom,,noun,3,das_konigreich
+ich tat,I did,,verb_fps,3,ich_tat
+packen,to grasp/seize,,verb,3,packen
+die Oberfläche,the surface,,noun,3,die_oberflache
+weder,neither,,conj,3,weder
+unbeholfen,clumsy/awkward,,adjv,3,unbeholfen
+sich beeilen,to hurry,,verb,3,sich_beeilen
+addieren,to add,,verb,1,addieren
+subtrahieren,to subtract,,verb,1,subtrahieren
+multiplizieren,to multiply,,verb,1,multiplizieren
+mal,times,,adjv,1,mal
+das Vielfache,the multiple,,noun,3,das_vielfache
+geteilt,divided,,adjv,3,geteilt
+teilen,to divide,,verb,3,teilen
+gleich aufteilen,to divide equally,,verb,3,gleich_aufteilen
