@@ -384,7 +384,7 @@ die Latte,the goalposts,,noun,0,die_latte
 der Tierarzt,the vet,Animals,noun,0,der_tierarzt
 schließlich,finally/eventually,,adjv,0,schliesslich
 gemeinsam,together,,adjv,0,gemeinsam
-erlösen,to save,,verb,1,erlosen
+erlösen,to save,,verb,0,erlosen
 entdecken,to discover,,verb,0,entdecken
 aufschlagen,to open,,verb,0,aufschlagen
 beugen,to bend,,verb,0,beugen
@@ -430,51 +430,106 @@ schuppig,scaly,,adjv,0,schuppig
 saftig,juicy,,adjv,0,saftig
 der Müller,the miller,,noun,0,der_muller
 das Feld,the field,,noun,0,das_feld
-wachsen,to grow,,verb,1,wachsen
+wachsen,to grow,,verb,0,wachsen
 pflanzen,to plant,,verb,0,pflanzen
 der Samen,the seed,,noun,0,der_samen
-abmachen,to agree,,verb,1,abmachen
+abmachen,to agree,,verb,0,abmachen
 der Wasserhahn,the tap,,noun,0,der_wasserhahn
-tropfen,to grip,,verb,1,tropfen
-deshalb,therefore,,conj,1,deshalb
+tropfen,to grip,,verb,0,tropfen
+deshalb,therefore,,conj,0,deshalb
 das Leder,the leather,,noun,0,das_leder
 die Schnalle,the buckle,,noun,1,die_schnalle
-der Gürtel,the belt,,noun,1,der_gurtel
-wechseln,to change,,verb,1,wechseln
-der Reißverschluss,the zip,,noun,1,der_reissverschluss
+der Gürtel,the belt,,noun,0,der_gurtel
+wechseln,to change,,verb,0,wechseln
+der Reißverschluss,the zip,,noun,0,der_reissverschluss
 wie,how,,conj,0,wie
-spähen,to peek/peep,,verb,1,spahen
-die Schleuse,the lock,,noun,1,die_schleuse
+spähen,to peek/peep,,verb,0,spahen
+die Schleuse,the lock,,noun,0,die_schleuse
 der Gang,the walk way,,noun,0,der_gang
-ohne,without,,prep,1,ohne
-entlang,along,,prep,1,entlang
-durch,through,,prep,1,durch
+ohne,without,,prep,0,ohne
+entlang,along,,prep,0,entlang
+durch,through,,prep,0,durch
 um,around,,prep,0,um
 gegen,against,,prep,0,gegen
-bei,at/near,,prep,1,bei
+bei,at/near,,prep,0,bei
 mit,with,,prep,0,mit
 von,from,,prep,0,von
-der Faden,the thread,,noun,1,der_faden
-krabbeln,to crawl,,verb,1,krabbeln
+der Faden,the thread,,noun,0,der_faden
+krabbeln,to crawl,,verb,0,krabbeln
 das Eisen,the iron,,noun,0,das_eisen
-die Weide,the pasture,,noun,1,die_weide
-irren,to be wrong,,verb,1,irren
-winzig,tiny,,adjv,1,winzig
+die Weide,the pasture,,noun,0,die_weide
+irren,to be wrong,,verb,0,irren
+winzig,tiny,,adjv,0,winzig
 die Melone,the melon,,noun,0,die_melone
-die Schnur,the string,,noun,3,die_schnur
-die Lupe,the magnifying glass,,noun,3,die_lupe
-das Königreich,the kingdom,,noun,3,das_konigreich
-ich tat,I did,,verb_fps,3,ich_tat
-packen,to grasp/seize,,verb,3,packen
-die Oberfläche,the surface,,noun,3,die_oberflache
-weder,neither,,conj,3,weder
-unbeholfen,clumsy/awkward,,adjv,3,unbeholfen
-sich beeilen,to hurry,,verb,3,sich_beeilen
-addieren,to add,,verb,1,addieren
-subtrahieren,to subtract,,verb,1,subtrahieren
-multiplizieren,to multiply,,verb,1,multiplizieren
-mal,times,,adjv,1,mal
-das Vielfache,the multiple,,noun,3,das_vielfache
-geteilt,divided,,adjv,3,geteilt
-teilen,to divide,,verb,3,teilen
-gleich aufteilen,to divide equally,,verb,3,gleich_aufteilen
+die Schnur,the string,,noun,0,die_schnur
+die Lupe,the magnifying glass,,noun,0,die_lupe
+das Königreich,the kingdom,,noun,0,das_konigreich
+ich tat,I did,,verb_fps,0,ich_tat
+packen,to grasp/seize,,verb,0,packen
+die Oberfläche,the surface,,noun,0,die_oberflache
+weder,neither,,conj,0,weder
+unbeholfen,clumsy/awkward,,adjv,0,unbeholfen
+sich beeilen,to hurry,,verb,0,sich_beeilen
+addieren,to add,,verb,0,addieren
+subtrahieren,to subtract,,verb,0,subtrahieren
+multiplizieren,to multiply,,verb,0,multiplizieren
+mal,times,,adjv,0,mal
+das Vielfache,the multiple,,noun,0,das_vielfache
+geteilt,divided,,adjv,0,geteilt
+teilen,to divide,,verb,0,teilen
+gleich aufteilen,to divide equally,,verb,0,gleich_aufteilen
+schubsen,to push/shove,,verb,1,
+sanft,gently,,adjv,1,
+treten,to step,,verb,0,
+der Schritt,the step,,noun,0,
+der Staub,the dust,,noun,0,
+wirbeln,to whirl,,verb,1,
+durcheinander,confused,,adjv,1,
+die Erbse,the pea,,noun,0,
+die Turnhalle,the gym,,noun,0,
+die Schaukel,the swing,,noun,0,
+der Ort,the place,,noun,0,
+der Ferne,the distance,,noun,0,
+fern,distant,,adjv,0,
+nah,near,,adjv,0,
+bewusst,deliberately,,adjv,1,
+wiegen,to weigh,,verb,1,
+die Anziehungskraft,the gravity,,noun,1,
+schweben,to float,,verb,1,
+stürzen,to rush,,verb,1,
+der Rand,the edge/rim,,noun,0,
+das Gebiss,the (set of) teeth,,noun,0,
+die Wurzel,the root,,noun,1,
+der Kiefer,the jaw,,noun,1,
+verlaufen,to run/pass,,verb,1,
+der Nerv,the nerve,,noun,0,
+empfindlich,sensitive,,adjv,1,
+der Anlauf,the approach/run-up,,noun,0,
+ungesicht,clumsy,,adjv,1,
+albern,silly,,adjv,1,
+der Bach,the stream,,noun,3,
+das Gleichgewicht,the balance,,noun,3,
+benötigen,to need,,verb,3,
+der Sauerstoff,the oxygen,,noun,3,
+die Kiemen,the gills,,noun,3,
+meist,most,,adjv,3,
+nennen,to call,,verb,3,
+der Laich,the spawn,,noun,3,
+das Weibchen,the female,,noun,3,
+die Made,the maggot,,noun,3,
+grüßen,to greet,,verb,3,
+der Beton,the concrete,,noun,3,
+der Stahl,the steel,,noun,3,
+der Spatz,the sparrow,,noun,3,
+die Mandel,the almond,,noun,3,
+die Pfanne,the frying pan,,noun,3,
+die Briefmarke,the stamp,,noun,3,
+der Urwald,the jungle,,noun,3,
+die Steinzeit,the stone age,,noun,3,
+die Locken,the curls,,noun,3,
+schon,already,,adjv,3,
+bremsen,to brake,,verb,3,
+der Hebel,the lever,,noun,3,
+steuern,to steer,,verb,3,
+betätigen,to operate,,verb,3,
+kippen,to tilt,,verb,3,
