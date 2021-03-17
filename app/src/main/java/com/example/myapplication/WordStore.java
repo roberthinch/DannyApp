@@ -140,7 +140,7 @@ public class WordStore {
             return records;
 
         // pick a record at random
-        Random rnd = ThreadLocalRandom.current();
+        Random rnd = new Random(System.currentTimeMillis());
         int idx;
         int nRec;
         List<Integer> categoryIndicies;

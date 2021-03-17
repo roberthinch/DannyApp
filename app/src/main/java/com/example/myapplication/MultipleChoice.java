@@ -79,7 +79,7 @@ public class MultipleChoice extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     static void shuffleIntArray(int[] ar)
     {
-        Random rnd = ThreadLocalRandom.current();
+        Random rnd = new Random(System.currentTimeMillis());
         for (int i = ar.length - 1; i > 0; i--)
         {
             int index = rnd.nextInt(i + 1);
@@ -92,7 +92,7 @@ public class MultipleChoice extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     static void shuffleArray(String[] ar)
     {
-        Random rnd = ThreadLocalRandom.current();
+        Random rnd = new Random(System.currentTimeMillis());
         for (int i = ar.length - 1; i > 0; i--)
         {
             int index = rnd.nextInt(i + 1);

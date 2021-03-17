@@ -56,7 +56,7 @@ public class MathsGame extends AppCompatActivity {
         if( score < 0 )
             autoQuestion = false;
 
-        Random rnd = ThreadLocalRandom.current();
+        Random rnd = new Random(System.currentTimeMillis());
         int number1, number2;
 
         if( operatorType == 0 ) {
