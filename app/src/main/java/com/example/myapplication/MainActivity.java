@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public static boolean SOUND_EFFECTS = true;
     public static WordStore WORD_STORE;
     public static WordStore SPELLING_STORE;
+    public static WordStore VERB_STORE;
     public static int INITIALISED = 0;
     public static int MAX_NUMBER_ADD_GAME = 30;
     public static int MAX_NUMBER_SUBTRACT_GAME = 25;
@@ -37,9 +38,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // load up session singleton noun store
-        if( INITIALISED == 0 )
-            WORD_STORE = new WordStore( this.getAssets(), "words.csv");
-            SPELLING_STORE = new WordStore( this.getAssets(), "spelling_words.csv");
+        if( INITIALISED == 0 ) {
+            WORD_STORE = new WordStore(this.getAssets(), "words.csv");
+            SPELLING_STORE = new WordStore(this.getAssets(), "spelling_words.csv");
+            VERB_STORE = new WordStore(this.getAssets(), "verbs.csv");
+        }
         INITIALISED = 1;
 
     }
@@ -133,8 +136,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void launchSpelling( View view) {
-        Intent intent = new Intent(this, Spelling.class);
-        intent.putExtra( CURRENT_TOTAL_QUESTIONS, 5 );
+        Intent intent = new Intent(this, Spelling2.class);
+        intent.putExtra( CURRENT_TOTAL_QUESTIONS, 20 );
         intent.putExtra( CURRENT_QUESTION_NUMBER, 0 );
         intent.putExtra( CURRENT_TOTAL_CORRECT, 0 );
         startActivity(intent);
